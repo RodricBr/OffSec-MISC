@@ -3,13 +3,11 @@ Personally created XSS payloads
 
 # Danger zone! <br>
 > Danger zone is the area which xss payloads can be OR will be harmfull to a web application <br>
-
-> So, do no use them unless you're sure the web app will not be damaged! <br>
+> so, do no use them unless you're sure the web app will not be damaged! <br>
 
 <br>
 
 > Do not use these payloads in a random or unauthorized web site, I do not take any resposibility <br>
-
 > to any script kiddies who decide to execute those on random places, you have been warned!
 
 ## document.write (Deface) <br>
