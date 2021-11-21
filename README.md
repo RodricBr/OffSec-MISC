@@ -1,5 +1,5 @@
 # xss
-Personally created XSS payloads
+- Personally created XSS payloads
 
 ## Danger zone! <br>
 > Danger zone is the area which xss payloads can be OR will be harmfull to a web application <br>
@@ -30,7 +30,7 @@ Personally created XSS payloads
 <br>
 
 # wFuzz
-wFuzz is a web application fuzzing tool
+- wFuzz is a web application fuzzing tool
 
 ##  Ultimate wFuzz command v1 <br>
 
