@@ -2,6 +2,8 @@
 Personally created XSS payloads
 
 # Danger zone! <br>
+- Danger zone is the area which xss payloads can be OR will be harmfull to a web application <br>
+- So, do no use them unless you're sure the web app will not be damaged!
 
 ## Document.write <br>
 
