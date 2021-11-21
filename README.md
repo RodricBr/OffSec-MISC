@@ -8,7 +8,7 @@ Personally created XSS payloads
 <br>
 
 > Do not use these payloads in a random or unauthorized web site, I do not take any resposibility <br>
-> to any script kiddies or black hats who decide to execute those on random places, you have been warned!
+> to any person who decide to execute those on random places, you have been warned!
 
 ## document.write <br>
 
