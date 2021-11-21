@@ -1,4 +1,4 @@
-<h1 style="text-align: center; text-size: 160%;"> Offensive Security MISC Anotations and Payloads</h1> <br>
+<h1 align="center"> Offensive Security MISC Anotations and Payloads</h1> <br>
 
 <br>
 <br>
