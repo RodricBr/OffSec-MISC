@@ -1,3 +1,9 @@
+<h1 style="text-align: center; text-size: 160%;"> Offensive Security MISC Anotations and Payloads</h1> <br>
+
+<br>
+<br>
+
+
 # xss
 - Personally created XSS payloads <br>
 
