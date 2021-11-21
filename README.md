@@ -25,6 +25,8 @@ Personally created XSS payloads
 
 <br>
 
+<hr>
+
 <br>
 
 # wFuzz
