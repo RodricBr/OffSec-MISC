@@ -60,6 +60,10 @@ sudo nmap --randomize-hosts -Pn 185.28.21.231 --script shodan-api --script-args 
 --reason               :: Shows the reason each port is set to a specific state and the reason each host is up or down.
 --ttl=128              :: Tricks the Target/Firewalls of thinking the user is scanning using Windows OS.
 -sV                    :: -sS added with -sV means that in case a port doesn't respond with SYN/ACK, Nmap will close the conection with RST.
+--top-ports=20         :: Scan 20 most common ports (Can be set to any number)
+--min-rate=2000        :: Send packets no slower than 2000 per second
+-T3                    :: Timing template set to polite
+--spoof-mac=google     :: Spoof MAC address
 ```
 
 <br>
