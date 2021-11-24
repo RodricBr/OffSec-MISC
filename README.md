@@ -50,15 +50,17 @@ sudo nmap --randomize-hosts -Pn 185.28.21.231 --script shodan-api --script-args 
 ```
 
 ## Explanation:
---randomize-hosts      :: Tells Nmap to shuffle each group of up to 16384 hosts before it scans them. <br>
--Pn                    :: Skips the host discovery stage altogether. <br>
---script *             :: Invoking the script to Shodan API. <br>
--v                     :: Verbose mode. <br>
--sS                    :: TCP SYN scan. <br>
---open                 :: Show open ports. <br>
---reason               :: Shows the reason each port is set to a specific state and the reason each host is up or down. <br>
---ttl=128              :: Tricks the Target/Firewalls of thinking the user is scanning using Windows OS. <br>
--sV                    :: -sS added with -sV means that in case a port doesn't respond with SYN/ACK, Nmap will close the conection with RST. <br>
+```markdown
+--randomize-hosts      :: Tells Nmap to shuffle each group of up to 16384 hosts before it scans them.
+-Pn                    :: Skips the host discovery stage altogether.
+--script *             :: Invoking the script to Shodan API.
+-v                     :: Verbose mode.
+-sS                    :: TCP SYN scan.
+--open                 :: Show open ports.
+--reason               :: Shows the reason each port is set to a specific state and the reason each host is up or down.
+--ttl=128              :: Tricks the Target/Firewalls of thinking the user is scanning using Windows OS.
+-sV                    :: -sS added with -sV means that in case a port doesn't respond with SYN/ACK, Nmap will close the conection with RST.
+```
 
 <br>
 
