@@ -40,7 +40,7 @@
 
 # Tools
 
-# Nmap Ultimate Scan v1 [man](https://man7.org/linux/man-pages/man1/nmap.1.html)
+# Nmap Ultimate Scan v1 ([man](https://man7.org/linux/man-pages/man1/nmap.1.html))
 - Nmap is a network discovery and security auditing.
 - It can also be used for web application.
 - Replace the API-KEY with your [Shodan](https://www.shodan.io) API Key
