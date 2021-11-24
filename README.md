@@ -48,3 +48,30 @@
 ```sh
 sudo wfuzz --hc 404,400,302,301 -u https://site.com/FUZZ -w WORDLIST.txt -H "User-Agent: Googlebot-News" -t 50
 ```
+
+<br>
+
+<hr>
+
+<br>
+
+# APIs
+- Apis for any kinds of target reconnaissance
+
+<br>
+
+## DNS Look up <br>
+
+> https://api.hackertarget.com/dnslookup/?q=URL
+
+<br>
+
+## HTTP Headers <br>
+
+> https://api.hackertarget.com/httpheaders/?q=URL
+
+<br>
+
+## Host Search <br>
+
+> https://api.hackertarget.com/hostsearch/?q=URL
