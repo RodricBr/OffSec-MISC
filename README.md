@@ -43,7 +43,8 @@
 # Nmap
 - Nmap is a network discovery and security auditing.
 - It can also be used for web application.
-- Replace the API-KEY with your ![Shodan](https://www.shodan.io) API Key
+- Replace the API-KEY with your [Shodan] API Key
+[Shodan]: https://www.shodan.io
 
 ```sh
 sudo nmap --randomize-hosts -Pn 185.28.21.231 --script shodan-api --script-args shodan-api.apikey=API-KEY -v -sS --open --reason --ttl=128 -sV --top-ports=20 --min-rate=2000 -T3  --spoof-mac=google -g443 --script="not intrusive" -oN resultados.txt
