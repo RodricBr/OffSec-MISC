@@ -46,12 +46,17 @@
 - Replace the API-KEY with your ![Shodan](https://www.shodan.io) API Key
 
 ```sh
-sudo nmap --randomize-hosts -Pn 185.28.21.231  --script shodan-api --script-args shodan-api.apikey=API-KEY -v -sS --open --reason --ttl=128 -sV --top-ports=20 --min-rate=2000 -T3  --spoof-mac=google -g443 --script="not intrusive" -oN resultados.txt
+sudo nmap --randomize-hosts -Pn 185.28.21.231 --script shodan-api --script-args shodan-api.apikey=API-KEY -v -sS --open --reason --ttl=128 -sV --top-ports=20 --min-rate=2000 -T3  --spoof-mac=google -g443 --script="not intrusive" -oN resultados.txt
 ```
 
 ## Explanation:
---randomize-hosts      :: Tells Nmap to shuffle each group of up to 16384 hosts before it scans them
--Pn                    :: Skips the host discovery stage altogether
+--randomize-hosts      :: Tells Nmap to shuffle each group of up to 16384 hosts before it scans them. <br>
+-Pn                    :: Skips the host discovery stage altogether. <br>
+--script *             :: Invoking the script to Shodan API. <br>
+-v                     :: Verbose mode. <br>
+-sS                    :: TCP SYN scan. <br>
+--open                 :: Show open ports. <br>
+--reason               :: Shows the reason each port is set to a specific state and the reason each host is up or down. <br>
 
 <br>
 
