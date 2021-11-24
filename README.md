@@ -56,7 +56,8 @@ sudo wfuzz --hc 404,400,302,301 -u https://site.com/FUZZ -w WORDLIST.txt -H "Use
 <br>
 
 # APIs
-- Apis for any kinds of target reconnaissance
+- Apis for any kinds of target reconnaissance.
+- Switch the URL with your target domain/ip.
 
 <br>
 
@@ -75,3 +76,13 @@ sudo wfuzz --hc 404,400,302,301 -u https://site.com/FUZZ -w WORDLIST.txt -H "Use
 ## Host Search <br>
 
 > https://api.hackertarget.com/hostsearch/?q=URL
+
+<br>
+
+## Crawlers <br>
+- Alien Vault limit parameter can be set to any integer number,
+- as well as the page parameter.
+- Common Crawl outputs with json format.
+
+> https://otx.alienvault.com/api/v1/indicators/hostname/URL/url_list?limit=50&page=1
+> https://index.commoncrawl.org/CC-MAIN-2021-43-index?url=URL&output=json
