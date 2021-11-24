@@ -38,6 +38,12 @@
 
 <br>
 
+# Tools
+
+# nmap
+- Nmap is a network discovery and security auditing.
+- It can also be used for web application.
+
 # wFuzz
 - wFuzz is a web application fuzzing tool <br>
 
