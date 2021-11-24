@@ -40,7 +40,7 @@
 
 # Tools
 
-# Nmap
+# Nmap Ultimate Scan v1
 - Nmap is a network discovery and security auditing.
 - It can also be used for web application.
 - Replace the API-KEY with your [Shodan](https://www.shodan.io) API Key
