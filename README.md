@@ -40,7 +40,7 @@
 <br>
 
 # cURL .NET Deserialization object grabber
-- cURL is a tool to transfer data from or to a server.
+- [cURL](https://linux.die.net/man/1/curl) is a tool to transfer data from or to a server.
 - .NET Deserialization ([CVE-2019-18935](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-18935))
 
 ### Grep for __VIEWSTATE parameters in a determined url <br>
