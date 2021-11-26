@@ -156,7 +156,7 @@ sudo wfuzz --hc 404,400,302,301 -u https://site.com/FUZZ -w WORDLIST.txt -H "Use
 
 > [Me](https://github.com/rodricbr)               :: Creator of this directory and 80% of the payloads/commands
 
-> [NobodyKnows](https://github.com/almostfamous2) :: Base creator of the [Nmap command](https://github.com/RodricBr/OffSec-MISC/blob/main/README.md#nmap-ultimate-scan-v1-man)
+> [NobodyKnows](https://github.com/almostfamous2) :: Base creator of the [Nmap command](#nmap-ultimate-scan-v1-man)
 
 > [Me](https://github.com/rodricbr)               :: Creator of the [cURL .NET command](#curl-net-deserialization-object-grabber)
 
