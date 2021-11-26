@@ -5,7 +5,7 @@
 <br>
 
 
-# xss
+# XSS
 - Personally created XSS payloads <br>
 
 <br>
@@ -71,7 +71,7 @@ sudo nmap --randomize-hosts -Pn 185.28.21.231 --script shodan-api --script-args 
 
 <br>
 
-# wFuzz
+# wFuzz ([man](https://www.kali.org/tools/wfuzz/))
 - wFuzz is a web application fuzzing tool <br>
 
 <br>
