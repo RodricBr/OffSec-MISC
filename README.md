@@ -35,6 +35,24 @@
 
 <br>
 
+# cURL .NET Deserialization object grabber
+- cURL is a tool to transfer data from or to a server.
+- .NET Deserialization ([CVE-2019-18935](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-18935))
+
+## Grep for __VIEWSTATE parameters in a determined url <br>
+
+```bash
+curl -v -s -k https://www.nepalipaisa.com/News.aspx | grep VIEW >> arquivo.txt
+```
+
+## Grabbing only the objects on the output file <br>
+
+```bash
+cat arquivo.txt | awk -v value="[OBJECT]>>> " '{print value$5}' | tr -d value=\" | awk '{print $2}' | sed 'G'
+```
+
+<br>
+
 <hr>
 
 <br>
