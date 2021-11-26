@@ -43,13 +43,13 @@
 - cURL is a tool to transfer data from or to a server.
 - .NET Deserialization ([CVE-2019-18935](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-18935))
 
-## Grep for __VIEWSTATE parameters in a determined url <br>
+### Grep for __VIEWSTATE parameters in a determined url <br>
 
 ```bash
 curl -v -s -k https://www.nepalipaisa.com/News.aspx | grep VIEW >> arquivo.txt
 ```
 
-## Grabbing only the objects on the output file <br>
+### Grabbing only the objects on the output file <br>
 
 ```bash
 cat arquivo.txt | awk -v value="[OBJECT]>>> " '{print value$5}' | tr -d value=\" | awk '{print $2}' | sed 'G'
@@ -72,7 +72,7 @@ cat arquivo.txt | awk -v value="[OBJECT]>>> " '{print value$5}' | tr -d value=\"
 sudo nmap --randomize-hosts -Pn 185.28.21.231 --script shodan-api --script-args shodan-api.apikey=API-KEY -v -sS --open --reason --ttl=128 -sV --top-ports=20 --min-rate=2000 -T3  --spoof-mac=google -g443 --script="not intrusive" -oN resultados.txt
 ```
 
-## Explanation:
+### Explanation:
 ```markdown
 --randomize-hosts        :: Tells Nmap to shuffle each group of up to 16384 hosts before it scans them.
 -Pn                      :: Skips the host discovery stage altogether.
@@ -99,7 +99,7 @@ sudo nmap --randomize-hosts -Pn 185.28.21.231 --script shodan-api --script-args 
 
 <br>
 
-##  Ultimate wFuzz command v1 <br>
+###  Ultimate wFuzz command v1 <br>
 
 ```sh
 sudo wfuzz --hc 404,400,302,301 -u https://site.com/FUZZ -w WORDLIST.txt -H "User-Agent: Googlebot-News" -t 50
