@@ -141,9 +141,11 @@ sudo wfuzz --hc 404,400,302,301 -u https://site.com/FUZZ -w WORDLIST.txt -H "Use
 
 <br>
 
-## Host Search <br>
+## Host Search & Sub-domains <br>
 
 > https://api.hackertarget.com/hostsearch/?q=URL
+> https://sonar.omnisint.io/subdomains/URL
+> https://jldc.me/anubis/subdomains/URL
 
 <br>
 
