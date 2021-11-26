@@ -49,7 +49,7 @@
 curl -v -s -k https://www.nepalipaisa.com/News.aspx | grep VIEW >> arquivo.txt
 ```
 
-### Grabbing only the objects on the output file <br>
+### Grabbing only the objects on the output file & throwing the objects into stdout<br>
 
 ```bash
 cat arquivo.txt | awk -v value="[OBJECT]>>> " '{print value$5}' | tr -d value=\" | awk '{print $2}' | sed 'G'
