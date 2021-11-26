@@ -120,7 +120,7 @@ sudo wfuzz --hc 404,400,302,301 -u https://site.com/FUZZ -w WORDLIST.txt -H "Use
 - as well as the page parameter.
 - Common Crawl outputs with json format.
 
-> https://otx.alienvault.com/api/v1/indicators/hostname/URL/url_list?limit=50&page=1
+> https://otx.alienvault.com/api/v1/indicators/hostname/URL/url_list?limit=50&page=1 <br>
 > https://index.commoncrawl.org/CC-MAIN-2021-43-index?url=URL&output=json
 
 <br>
