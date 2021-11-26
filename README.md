@@ -100,9 +100,19 @@ sudo nmap --randomize-hosts -Pn 185.28.21.231 --script shodan-api --script-args 
 <br>
 
 ###  Ultimate wFuzz command v1 <br>
+- You can find awesome wordlists [here](https://github.com/danielmiessler/SecLists/tree/master/Discovery/Web-Content)
 
 ```sh
 sudo wfuzz --hc 404,400,302,301 -u https://site.com/FUZZ -w WORDLIST.txt -H "User-Agent: Googlebot-News" -t 50
+```
+
+### Explanation:
+```markdown
+--hc                     :: Ignore 404, 400, 302 and 301 status codes.
+-u                       :: Url with the FUZZ param where the program shall do the fuzzing.
+-w                       :: Using a wordlist.
+-H                       :: Trying to trick the WAF with a Google-bot user agent.
+-t                       :: Using 50 threads.
 ```
 
 <br>
