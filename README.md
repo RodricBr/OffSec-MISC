@@ -121,3 +121,13 @@ sudo wfuzz --hc 404,400,302,301 -u https://site.com/FUZZ -w WORDLIST.txt -H "Use
 
 > https://otx.alienvault.com/api/v1/indicators/hostname/URL/url_list?limit=50&page=1
 > https://index.commoncrawl.org/CC-MAIN-2021-43-index?url=URL&output=json
+
+<br>
+<br>
+<br>
+
+#### Credits:
+> [Me](github.com/rodricbr) :: Creator of this directory
+
+> [NobodyKnows](github.com/almostfamous2) :: Base creator of the Nmap command
+
