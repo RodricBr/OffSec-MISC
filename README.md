@@ -10,9 +10,10 @@
 
 <br>
 
-## ⚠️ Danger zone! <br>
-> Danger zone is the area which xss payloads can be OR will be harmfull to a web application <br>
-> so, do no use them unless you're sure the web app will not be damaged! <br>
+## ⚠️ Danger zone! ⚠️ <br>
+> Danger zone is the area which the payloads can be OR will be harmfull to a web application. <br>
+> So, do no use them unless you're sure the web app will not be damaged or you're testing on a allowed enviroment! <br>
+> I do NOT take any responsability to any of you who wants to test on random websites, you have been warned!
 
 <br>
 
