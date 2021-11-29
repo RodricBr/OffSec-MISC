@@ -61,6 +61,19 @@ cat arquivo.txt | awk -v value="[OBJECT]>>> " '{print value$5}' | tr -d value=\"
 
 <br>
 
+# cURL Bypass 403 Redirect
+- [cURL](https://linux.die.net/man/1/curl) is a tool to transfer data from or to a server.
+
+```bash
+curl -s -k -X GET https://www.site.com/ -v -H "X-Originating-IP: 127.0.0.1, 68.180.194.242" -H "User-Agent: GoogleBot" -H "Content-Length:0"
+```
+
+<br>
+
+<hr>
+
+<br>
+
 # Tools
 
 # Nmap Ultimate Scan v1 ([man](https://man7.org/linux/man-pages/man1/nmap.1.html))
