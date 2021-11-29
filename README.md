@@ -179,7 +179,7 @@ sudo wfuzz --hc 404,400,302,301 -u https://site.com/FUZZ -w WORDLIST.txt -H "Use
 
 #### Credits: <br>
 
-> [Me](https://github.com/rodricbr)               :: Creator of this directory and 80% of the payloads/commands
+> [Me](https://github.com/rodricbr)               :: Creator of this directory and most of the payloads/commands
 
 > [NobodyKnows](https://github.com/almostfamous2) :: Base creator of the [Nmap command](#nmap-ultimate-scan-v1-man)
 
