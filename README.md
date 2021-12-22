@@ -32,6 +32,7 @@
 ```html
 ;//<!----><SCRIPT>alert(1);</SCRIPT><svg onload="alert(document.domain)">
 ```
+<br>
 
 ## MISC <br>
 
