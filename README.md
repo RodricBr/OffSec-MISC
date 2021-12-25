@@ -2,7 +2,6 @@
 <h1 align="center"> Offensive Security MISC Anotations and Payloads</h1> <br>
 
 <br>
-<br>
 
 
 # [XSS](https://book.hacktricks.xyz/pentesting-web/xss-cross-site-scripting)
