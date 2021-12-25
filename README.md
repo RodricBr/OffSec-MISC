@@ -11,8 +11,8 @@
 <br>
 
 ## ⚠️ Danger zone! ⚠️ <br>
-> Danger zone is the area which the payloads can be OR will be harmfull to a web application. <br>
-> So, do no use them unless you're sure the web app. will NOT be damaged or you're testing on a ALLOWED enviroment! <br>
+> Danger zone is the area which the payloads can be **OR** will be harmfull to a web application. <br>
+> So, do not use them unless you're sure the web app. will not be damaged or you're testing on a **ALLOWED enviroment!** <br>
 > I do **NOT** take any responsability to any of you who wants to test on random websites. You have been warned!
 
 <br>
