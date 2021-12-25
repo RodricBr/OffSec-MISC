@@ -4,7 +4,7 @@
 <br>
 
 
-# [XSS](https://book.hacktricks.xyz/pentesting-web/xss-cross-site-scripting)
+# - [XSS](https://book.hacktricks.xyz/pentesting-web/xss-cross-site-scripting)
 - XSS payloads <br>
 
 <br>
@@ -49,7 +49,7 @@
 
 <br>
 
-# [SSRF](https://book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery)
+# - [SSRF](https://book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery)
 - SSRF payloads <br>
 
 ```html
@@ -62,7 +62,7 @@
 
 <br>
 
-# cURL .NET Serialized object grabber
+# - cURL .NET Serialized object grabber
 - [cURL](https://linux.die.net/man/1/curl) is a tool to transfer data from or to a server.
 - .NET Deserialization ([CVE-2019-18935](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-18935))
 
@@ -84,12 +84,11 @@ cat arquivo.txt | awk -v value="[OBJECT]>>> " '{print value$5}' | tr -d value=\"
 
 <br>
 
-# cURL Bypass 403 Redirect
+# - cURL Bypass 403 Redirect
 - [cURL](https://linux.die.net/man/1/curl) is a tool to transfer data from or to a server.
 
 ```bash
 curl -s -k -X GET https://www.site.com/ -v -H "X-Originating-IP: 127.0.0.1, 68.180.194.242" -H "User-Agent: GoogleBot" -H "Content-Length:0"
-
 curl -i -s -k -X GET https://www.site.com/ -H "Host: www.site.co" -H "X-rewrite-url: directory"
 ```
 
@@ -99,7 +98,7 @@ curl -i -s -k -X GET https://www.site.com/ -H "Host: www.site.co" -H "X-rewrite-
 
 <br>
 
-# Tools
+# - Tools
 
 # Nmap Ultimate Scan v1 ([man](https://man7.org/linux/man-pages/man1/nmap.1.html))
 - Nmap is a network discovery and security auditing.
@@ -132,7 +131,7 @@ sudo nmap --randomize-hosts -Pn 185.28.21.231 --script shodan-api --script-args 
 
 <br>
 
-# wFuzz ([man](https://www.kali.org/tools/wfuzz/))
+# - wFuzz ([man](https://www.kali.org/tools/wfuzz/))
 - wFuzz is a web application fuzzing tool <br>
 
 <br>
@@ -159,7 +158,7 @@ sudo wfuzz --hc 404,400,302,301 -u https://site.com/FUZZ -w WORDLIST.txt -H "Use
 
 <br>
 
-# APIs
+# - APIs
 - Apis for any kinds of target reconnaissance.
 - Can be also used with cURL for automatic tool making
 - Switch the URL with your target's domain or ip.
