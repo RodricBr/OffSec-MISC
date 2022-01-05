@@ -7,6 +7,8 @@
 
 - [XSS Payloads](#--xss)
 
+- [cURL Related](#curl-related)
+
 <br>
 <hr>
 
