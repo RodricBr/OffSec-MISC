@@ -3,6 +3,12 @@
 
 <br>
 
+# Topics: <br>
+
+- [XSS Payloads](#--xss)
+
+<br>
+<hr>
 
 # - [XSS](https://book.hacktricks.xyz/pentesting-web/xss-cross-site-scripting)
 - XSS payloads <br>
