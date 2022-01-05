@@ -70,7 +70,9 @@
 
 <br>
 
-# - cURL .NET Serialized object grabber
+# cURL Related
+
+## - cURL .NET Serialized object grabber
 - [cURL](https://linux.die.net/man/1/curl) is a tool to transfer data from or to a server.
 - .NET Deserialization ([CVE-2019-18935](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-18935))
 
@@ -92,7 +94,7 @@ cat arquivo.txt | awk -v value="[OBJECT]>>> " '{print value$5}' | tr -d value=\"
 
 <br>
 
-# - cURL Bypass 403 Redirect
+## - cURL Bypass 403 Redirect
 - [cURL](https://linux.die.net/man/1/curl) is a tool to transfer data from or to a server.
 
 ```bash
