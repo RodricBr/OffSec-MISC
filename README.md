@@ -85,19 +85,6 @@ onMouseOvER=prompt(/xss/)//
 
 <br>
 
-# - [SSRF](https://book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery)
-- SSRF payloads <br>
-
-```html
-
-```
-
-<br>
-
-<hr>
-
-<br>
-
 # cURL Related
 
 ## - cURL .NET Serialized object grabber
