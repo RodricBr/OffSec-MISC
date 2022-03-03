@@ -155,9 +155,12 @@ cat arquivo.txt | awk -v value="[teste]>>> " '{print value$5}' | tr -d value=\" 
 
 <br>
 
-## - cURL Bypass 403 Redirect
-- [cURL](https://linux.die.net/man/1/curl) is a tool to transfer data from or to a server.
+## - Bypass 403 Redirect
+- Mind maps for 403 Bypass: **https://github.com/KathanP19/HowToHunt/tree/master/Status_Code_Bypass**
 
+<br>
+
+### cURL 403 Bypasses: <br>
 ```bash
 curl -s -k -X GET https://www.site.com/ -v -H "X-Originating-IP: 127.0.0.1, 68.180.194.242" -H "User-Agent: GoogleBot" -H "Content-Length:0"
 curl -i -s -k -X GET https://www.site.com/ -H "Host: www.site.co" -H "X-rewrite-url: directory"
