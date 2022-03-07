@@ -185,6 +185,7 @@ cat arquivo.txt | awk -v value="[teste]>>> " '{print value$5}' | tr -d value=\" 
 
 ## - Bypass 403 Redirect
 - Mind maps for 403 Bypass: **https://github.com/KathanP19/HowToHunt/tree/master/Status_Code_Bypass**
+- [Bypassing 403 medium post](https://medium.com/@dufferhackers/403-forbidden-bypass-technique-eda321012baa)
 
 <br>
 
