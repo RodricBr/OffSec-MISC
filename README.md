@@ -194,7 +194,7 @@ orwa'||DBMS_PIPE.RECEIVE_MESSAGE(CHR(98)||CHR(98)||CHR(98),10)||'
 ## - Bash/Shell script to check server's HTTP response code
 
 ```sh
-#!/usr/bin
+#!/bin/bash
 
 echo -e "\n$1 \t[$CODE_]"
 CODE_=$(curl -w "%{http_code}\n" -s -o /dev/null "$1")
