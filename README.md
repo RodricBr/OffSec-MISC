@@ -191,6 +191,18 @@ orwa'||DBMS_PIPE.RECEIVE_MESSAGE(CHR(98)||CHR(98)||CHR(98),10)||'
 
 # cURL Related
 
+## Bash/Shell script to check server's HTTP response code
+
+```sh
+#!/usr/bin
+
+echo -e "\n$1 \t[$CODE_]"
+CODE_=$(curl -w "%{http_code}\n" -s -o /dev/null "$1")
+```
+- Change the program permission to executable using chmod +x, <br>
+
+- passing the first argument as the URL.
+
 ## - cURL .NET Serialized object grabber
 - [cURL](https://linux.die.net/man/1/curl) is a tool to transfer data from or to a server.
 - .NET Deserialization ([CVE-2019-18935](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-18935))
