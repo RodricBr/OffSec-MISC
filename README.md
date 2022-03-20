@@ -191,7 +191,7 @@ orwa'||DBMS_PIPE.RECEIVE_MESSAGE(CHR(98)||CHR(98)||CHR(98),10)||'
 
 # cURL Related
 
-## Bash/Shell script to check server's HTTP response code
+## - Bash/Shell script to check server's HTTP response code
 
 ```sh
 #!/usr/bin
