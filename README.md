@@ -317,7 +317,8 @@ sudo wfuzz --hc 404,400,302,301 -u https://site.com/FUZZ -w WORDLIST.txt -H "Use
 > https://api.hackertarget.com/dnslookup/?q=URL <br>
 > https://api.threatminer.org/v2/domain.php?q=URL&rt=5 <br>
 > https://api.hackertarget.com/findshareddns/?q=URL <br>
-> https://api.hackertarget.com/reversedns/?q=URL
+> https://api.hackertarget.com/reversedns/?q=URL <br>
+> https://api.hackertarget.com/zonetransfer/?q=URL
 
 <br>
 
@@ -342,6 +343,12 @@ sudo wfuzz --hc 404,400,302,301 -u https://site.com/FUZZ -w WORDLIST.txt -H "Use
 
 > https://otx.alienvault.com/api/v1/indicators/hostname/URL/url_list?limit=50&page=1 <br>
 > https://index.commoncrawl.org/CC-MAIN-2021-43-index?url=URL&output=json
+
+<br>
+
+## Scanners Related <br>
+
+> https://api.hackertarget.com/nmap/?q=URL
 
 <br>
 <br>
