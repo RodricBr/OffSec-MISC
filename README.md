@@ -322,6 +322,12 @@ sudo wfuzz --hc 404,400,302,301 -u https://site.com/FUZZ -w WORDLIST.txt -H "Use
 
 <br>
 
+## General Network <br>
+
+> https://api.hackertarget.com/subnetcalc/?q=URL <br>
+
+<br>
+
 ## HTTP Headers <br>
 
 > https://api.hackertarget.com/httpheaders/?q=URL
