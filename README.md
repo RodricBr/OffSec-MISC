@@ -365,10 +365,8 @@ sudo wfuzz --hc 404,400,302,301 -u https://site.com/FUZZ -w WORDLIST.txt -H "Use
 
 #### Credits: <br>
 
-> [Me](https://github.com/rodricbr)               :: Creator of this directory and most of the payloads/commands
-
 > [NobodyKnows](https://github.com/almostfamous2) :: Base creator of the [Nmap command](#nmap-ultimate-scan-v1-man)
 
-> [Me](https://github.com/rodricbr)               :: Creator of the [cURL .NET command](#--curl-net-serialized-object-grabber)
+> [Me](https://github.com/rodricbr)               :: The rest
 
 
