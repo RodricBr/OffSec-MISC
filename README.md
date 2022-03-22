@@ -316,7 +316,8 @@ sudo wfuzz --hc 404,400,302,301 -u https://site.com/FUZZ -w WORDLIST.txt -H "Use
 
 > https://api.hackertarget.com/dnslookup/?q=URL <br>
 > https://api.threatminer.org/v2/domain.php?q=URL&rt=5 <br>
-> https://api.hackertarget.com/findshareddns/?q=URL
+> https://api.hackertarget.com/findshareddns/?q=URL <br>
+> https://api.hackertarget.com/reversedns/?q=URL
 
 <br>
 
