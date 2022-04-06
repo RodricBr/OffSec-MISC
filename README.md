@@ -309,7 +309,7 @@ sudo wfuzz --hc 404,400,302,301 -u https://site.com/FUZZ -w WORDLIST.txt -H "Use
 # - APIs
 - Apis for any kinds of target reconnaissance.
 - Can be also used with cURL for automatic tool making
-- Switch the URL with your target's domain or ip.
+- Switch the **URL** with your target's domain or ip.
 
 <br>
 
