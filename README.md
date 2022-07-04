@@ -24,6 +24,8 @@
 Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted websites. XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script (JavaScript, etc), to a different end user. Flaws that allow these attacks to succeed are quite widespread and occur anywhere a web application uses input from a user within the output it generates without validating or encoding it. XSS can cause a variety of problems for the end user, that range in severity: from an annoyance, to complete account compromising.
 XSS attacks may be conducted without using `<script>...</script>` html tags. Other html tags will do exactly the same thing, for example: `<body onload=alert('test1')>` or other html attributes such as: onmouseover, onerror, onload, etc... [(source)](https://owasp.org/www-community/attacks/xss/)
 
+<img src="https://www.imperva.com/learn/wp-content/uploads/sites/13/2019/01/sorted-XSS.png" alt="XSS Attack example">
+
 <br>
 
 > Do not use the following xss payloads in a random or unauthorized web application, I do not take any resposibility <br>
