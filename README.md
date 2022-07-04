@@ -392,31 +392,31 @@ sudo wfuzz --hc 404,400,302,301 -u https://site.com/FUZZ -w WORDLIST.txt -H "Use
 
 ## DNS Look up & DNS Stuff <br>
 
-> https://api.hackertarget.com/dnslookup/?q=URL <br>
-> https://api.threatminer.org/v2/domain.php?q=URL&rt=5 <br>
-> https://api.hackertarget.com/findshareddns/?q=URL <br>
-> https://api.hackertarget.com/reversedns/?q=URL <br>
-> https://api.hackertarget.com/zonetransfer/?q=URL
+> https://api.hackertarget.com/dnslookup/?q=URL.COM <br>
+> https://api.threatminer.org/v2/domain.php?q=URL.COM&rt=5 <br>
+> https://api.hackertarget.com/findshareddns/?q=URL.COM <br>
+> https://api.hackertarget.com/reversedns/?q=URL.COM <br>
+> https://api.hackertarget.com/zonetransfer/?q=URL.COM
 
 <br>
 
 ## General Network <br>
 
-> https://api.hackertarget.com/subnetcalc/?q=URL <br>
+> https://api.hackertarget.com/subnetcalc/?q=URL.COM <br>
 
 <br>
 
 ## HTTP Headers <br>
 
-> https://api.hackertarget.com/httpheaders/?q=URL
+> https://api.hackertarget.com/httpheaders/?q=URL.COM
 
 <br>
 
 ## Host Search & Sub-domains <br>
 
-> https://api.hackertarget.com/hostsearch/?q=URL <br>
-> https://sonar.omnisint.io/subdomains/URL <br>
-> https://jldc.me/anubis/subdomains/URL
+> https://api.hackertarget.com/hostsearch/?q=URL.COM <br>
+> https://sonar.omnisint.io/subdomains/URL.COM <br>
+> https://jldc.me/anubis/subdomains/URL.COM
 
 <br>
 
@@ -425,14 +425,15 @@ sudo wfuzz --hc 404,400,302,301 -u https://site.com/FUZZ -w WORDLIST.txt -H "Use
 - as well as the page parameter.
 - Common Crawl outputs with json format.
 
-> https://otx.alienvault.com/api/v1/indicators/hostname/URL/url_list?limit=50&page=1 <br>
-> https://index.commoncrawl.org/CC-MAIN-2021-43-index?url=URL&output=json
+> https://otx.alienvault.com/api/v1/indicators/hostname/URL.COM/url_list?limit=50&page=1 <br>
+> https://index.commoncrawl.org/CC-MAIN-2021-43-index?url=URL.COM&output=json
 
 <br>
 
 ## Scanners Related <br>
 
-> https://api.hackertarget.com/nmap/?q=URL
+> https://api.hackertarget.com/nmap/?q=URL.COM
+> https://urlscan.io/api/v1/search/?q=domain:URL.COM&size=10000
 
 <br>
 <br>
