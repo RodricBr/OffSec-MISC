@@ -5,7 +5,9 @@
 
 # Topics: <br>
 
-> [XSS Payloads](#--xss)
+> [XSS Related + Payload list](#--xss)
+
+> [SQLi Related + Payload list](#--sqli)
 
 > [cURL Related](#curl-related)
 
