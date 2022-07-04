@@ -24,8 +24,8 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
 
 <br>
 
-> Do not use the following data payloads in a random or unauthorized web application, I do not take any resposibility <br>
-> to any person who decide to execute those on random endpoints and parameters, you have been warned!
+> Do not use the following xss payloads in a random or unauthorized web application, I do not take any resposibility <br>
+> to anyone willing to execute or exploit them on random endpoints and parameters, you have been warned!
 
 ## XSS Payloads (My personal collection) <br>
 
