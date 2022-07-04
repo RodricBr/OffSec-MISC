@@ -24,7 +24,7 @@
 Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted websites. XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script (JavaScript, etc), to a different end user. Flaws that allow these attacks to succeed are quite widespread and occur anywhere a web application uses input from a user within the output it generates without validating or encoding it. XSS can cause a variety of problems for the end user, that range in severity: from an annoyance, to complete account compromising.
 XSS attacks may be conducted without using `<script>...</script>` html tags. Other html tags will do exactly the same thing, for example: `<body onload=alert('test1')>` or other html attributes such as: onmouseover, onerror, onload, etc... [(source)](https://owasp.org/www-community/attacks/xss/)
 
-<img src="https://www.imperva.com/learn/wp-content/uploads/sites/13/2019/01/sorted-XSS.png" alt="XSS Attack example">
+<img src="assets/xss-example.png" alt="XSS Attack example">
 
 <br>
 
@@ -221,7 +221,7 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
 SQL injection attacks are a type of injection attack, in which SQL commands are injected into data-plane input in order to affect the execution of predefined SQL commands.
 Consists of an insertion or "injection" of a SQL query via the input data from the client to the application. A successful SQL injection exploit can read sensitive data from the database, modify database data (Insert/Update/Delete), execute administration operations on the database (such as shutdown the DBMS), recover the content of a given file present on the DBMS file system and in some cases issue commands to the operating system. [(source)](https://owasp.org/www-community/attacks/SQL_Injection)
 
-<img src="https://avinetworks.com/wp-content/uploads/2020/04/sql-injection-attack-diagram.png" alt="SQL Injection attack example">
+<img src="assets/sqli-example.png" alt="SQL Injection attack example">
 
 ## SQLi Payloads <br>
 - Advanced SQL Injection payloads for endpoint/parameter fuzzing
