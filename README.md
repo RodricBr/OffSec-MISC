@@ -255,32 +255,31 @@ Consists of an insertion or "injection" of a SQL query via the input data from t
 
 # cURL Related
 
-## - Bash/Shell script to check server's HTTP response code
+## Bash/Shell script to check server's HTTP response code
 
-```sh
+```bash
 #!/bin/bash
 
 echo -e "\n$1 \t[$CODE_]"
 CODE_=$(curl -w "%{http_code}\n" -s -o /dev/null "$1")
 ```
-- Change the program permission to executable using chmod +x, <br>
+> Change the program permission to executable using chmod +x, <br>
+> passing the first argument($1) as the target domain.
 
-- passing the first argument as the URL.
-
-## - cURL .NET Serialized object grabber
+## cURL .NET Serialized object grabber
 - [cURL](https://linux.die.net/man/1/curl) is a tool to transfer data from or to a server.
 - .NET Deserialization ([CVE-2019-18935](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-18935))
 
-### Grep for __VIEWSTATE parameters in a determined url <br>
+### Greping for **__VIEWSTATE** variable in a determined domain: <br>
 
 ```bash
-curl -v -s -k https://www.nepalipaisa.com/News.aspx | grep VIEW >> arquivo.txt
+curl -v -s -k https://www.nepalipaisa.com/News.aspx | grep VIEW >> output.txt
 ```
 
-### Grabbing only the objects on the output file & throwing the objects into stdout <br>
+### Grabbing only the objects on the output file & throwing the objects into stdout: <br>
 
 ```bash
-cat arquivo.txt | awk -v value="[teste]>>> " '{print value$5}' | tr -d value=\" | awk '{print $2}' | sed 'G'
+cat output.txt | awk -v value="[teste]>>> " '{print value$5}' | tr -d value=\" | awk '{print $2}' | sed 'G'
 ```
 
 <br>
@@ -289,15 +288,22 @@ cat arquivo.txt | awk -v value="[teste]>>> " '{print value$5}' | tr -d value=\" 
 
 <br>
 
-## - Bypass 403 Redirect
+# Bypass 403 Redirect
 - Mind maps for 403 Bypass: **https://github.com/KathanP19/HowToHunt/tree/master/Status_Code_Bypass**
 - [Bypassing 403 medium post](https://medium.com/@dufferhackers/403-forbidden-bypass-technique-eda321012baa)
 
 <br>
 
-### cURL 403 Bypasses: <br>
-- Note: Try adding `./`, `//` after the url <br>
-- Just like so: `site.com/./` OR `site.com//`... etc
+## 403 Bypass method using cURL: <br>
+
+Tips: Try adding `./`, `//` after the url <br>
+- Example: `site.com/./` OR `site.com//`
+
+Try using different request methods to access the unauthorized file/path: `GET, HEAD, POST, PUT, DELETE, CONNECT, OPTIONS, TRACE, PATCH, INVENTED, HACK`.
+Check the response headers, maybe some information can be given. For example, a 200 response to HEAD with Content-Length: 55 means that the HEAD request method can access the info. But you still need to find a way to exfiltrate that info.
+Using a HTTP header like `X-HTTP-Method-Override: PUT` can overwrite the request method used.
+Use TRACE request method and, if you are very lucky, maybe in the response you can see also the headers added by intermediate proxies that might be useful as information.
+
 ```bash
 curl -s -k -X GET https://www.site.com/ -v -H "X-Originating-IP: 127.0.0.1, 68.180.194.242" -H "User-Agent: GoogleBot" -H "Content-Length:0"
 curl -i -s -k -X GET https://www.site.com/ -H "Host: www.site.co" -H "X-rewrite-url: directory"
