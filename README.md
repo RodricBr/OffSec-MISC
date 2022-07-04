@@ -432,7 +432,7 @@ sudo wfuzz --hc 404,400,302,301 -u https://site.com/FUZZ -w WORDLIST.txt -H "Use
 
 ## Scanners Related <br>
 
-> https://api.hackertarget.com/nmap/?q=URL.COM
+> https://api.hackertarget.com/nmap/?q=URL.COM <br>
 > https://urlscan.io/api/v1/search/?q=domain:URL.COM&size=10000
 
 <br>
