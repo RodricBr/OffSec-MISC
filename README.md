@@ -222,6 +222,7 @@ SQL injection attacks are a type of injection attack, in which SQL commands are 
 Consists of an insertion or "injection" of a SQL query via the input data from the client to the application. A successful SQL injection exploit can read sensitive data from the database, modify database data (Insert/Update/Delete), execute administration operations on the database (such as shutdown the DBMS), recover the content of a given file present on the DBMS file system and in some cases issue commands to the operating system. [(source)](https://owasp.org/www-community/attacks/SQL_Injection)
 
 <img src="https://assets.website-files.com/5ff66329429d880392f6cba2/608958ea27293628afb3b58b_SQL%20injection%20work.jpg" alt="SQL Injection attack example">
+<img src="https://avinetworks.com/wp-content/uploads/2020/04/sql-injection-attack-diagram.png" alt="SQL Injection attack example">
 
 ## SQLi Payloads <br>
 - Advanced SQL Injection payloads for fuzzing
