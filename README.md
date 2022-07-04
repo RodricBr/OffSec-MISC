@@ -13,7 +13,7 @@
 
 > [Tools Related](#--tools)
 
-> [APIs](#--apis)
+> [APIs](#apis)
 
 <br>
 <hr>
