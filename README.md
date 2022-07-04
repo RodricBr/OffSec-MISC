@@ -254,6 +254,9 @@ Consists of an insertion or "injection" of a SQL query via the input data from t
 <br>
 
 # cURL Related
+● What is cURL? <br>
+
+cURL is a command-line interface(CLI) tool for transferring data specified with URL syntax.
 
 ## Bash/Shell script to check server's HTTP response code
 
@@ -264,7 +267,7 @@ echo -e "\n$1 \t[$CODE_]"
 CODE_=$(curl -w "%{http_code}\n" -s -o /dev/null "$1")
 ```
 > Change the program permission to executable using chmod +x, <br>
-> passing the first argument($1) as the target domain.
+> passing the first argument($1) as the target domain.   
 
 ## cURL .NET Serialized object grabber
 - [cURL](https://linux.die.net/man/1/curl) is a tool to transfer data from or to a server.
@@ -288,7 +291,7 @@ cat output.txt | awk -v value="[teste]>>> " '{print value$5}' | tr -d value=\" |
 
 <br>
 
-# Bypass 403 Redirect
+# Bypass 403 Forbidden 
 - Mind maps for 403 Bypass: **https://github.com/KathanP19/HowToHunt/tree/master/Status_Code_Bypass**
 - [Bypassing 403 medium post](https://medium.com/@dufferhackers/403-forbidden-bypass-technique-eda321012baa)
 
@@ -304,6 +307,8 @@ Check the response headers, maybe some information can be given. For example, a 
 Using a HTTP header like `X-HTTP-Method-Override: PUT` can overwrite the request method used.
 Use TRACE request method and, if you are very lucky, maybe in the response you can see also the headers added by intermediate proxies that might be useful as information.
 
+Additional [content](https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/403-and-401-bypasses)
+
 ```bash
 curl -s -k -X GET https://www.site.com/ -v -H "X-Originating-IP: 127.0.0.1, 68.180.194.242" -H "User-Agent: GoogleBot" -H "Content-Length:0"
 curl -i -s -k -X GET https://www.site.com/ -H "Host: www.site.co" -H "X-rewrite-url: directory"
@@ -317,12 +322,15 @@ curl -i -s -k -X GET https://www.site.com/ -H "Host: www.site.co" -H "X-rewrite-
 
 # - Tools
 
-# Nmap Ultimate Scan v1 ([man](https://man7.org/linux/man-pages/man1/nmap.1.html))
-- Nmap is a network discovery and security auditing.
-- It can also be used for web application.
+## Nmap Ultimate Scan v1 ([man](https://man7.org/linux/man-pages/man1/nmap.1.html))
+
+nMap (Network Mapper) is a network discovery and security tool.
+nMap is used to discover hosts and services on a computer network by sending packets and analyzing the responses
+It can also be used for web application.
+
 - Replace the API-KEY with your [Shodan](https://www.shodan.io) API Key
 
-```sh
+```bash
 sudo nmap --randomize-hosts -Pn 0.0.0.0 --script shodan-api --script-args shodan-api.apikey=API-KEY -v -sS --open --reason --ttl=128 -sV --top-ports=20 --min-rate=2000 -T3  --spoof-mac=google -g443 --script="not intrusive" -oN resultados.txt
 ```
 
