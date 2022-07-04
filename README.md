@@ -325,8 +325,8 @@ curl -i -s -k -X GET https://www.site.com/ -H "Host: www.site.co" -H "X-rewrite-
 ## Nmap Ultimate Scan v1 ([man](https://man7.org/linux/man-pages/man1/nmap.1.html))
 
 nMap (Network Mapper) is a network discovery and security tool.
-nMap is used to discover hosts and services on a computer network by sending packets and analyzing the responses
-It can also be used for web application.
+nMap is used to discover hosts and services on a computer network by sending packets and analyzing the responses. <br>
+It can also be used for web application testing.
 
 - Replace the API-KEY with your [Shodan](https://www.shodan.io) API Key
 
