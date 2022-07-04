@@ -320,7 +320,7 @@ curl -i -s -k -X GET https://www.site.com/ -H "Host: www.site.co" -H "X-rewrite-
 
 <br>
 
-# - Tools
+# Tools
 
 ## Nmap Ultimate Scan v1 ([man](https://man7.org/linux/man-pages/man1/nmap.1.html))
 
@@ -356,8 +356,8 @@ sudo nmap --randomize-hosts -Pn 0.0.0.0 --script shodan-api --script-args shodan
 
 <br>
 
-# - wFuzz ([man](https://www.kali.org/tools/wfuzz/))
-- wFuzz is a web application fuzzing tool <br>
+## wFuzz ([man](https://www.kali.org/tools/wfuzz/))
+- wFuzz is a web application [fuzzing](https://owasp.org/www-community/Fuzzing) tool. <br>
 
 <br>
 
@@ -383,10 +383,10 @@ sudo wfuzz --hc 404,400,302,301 -u https://site.com/FUZZ -w WORDLIST.txt -H "Use
 
 <br>
 
-# - APIs
+# APIs
 - Apis for any kinds of target reconnaissance.
-- Can be also used with cURL for automatic tool making
-- Switch the **URL** with your target's domain or ip.
+- Can be also used with cURL to make automated tools.
+- Switch the **URL** with your target's domain.
 
 <br>
 
@@ -445,6 +445,6 @@ sudo wfuzz --hc 404,400,302,301 -u https://site.com/FUZZ -w WORDLIST.txt -H "Use
 
 > [NobodyKnows](https://github.com/almostfamous2) :: Base creator of the [Nmap command](#nmap-ultimate-scan-v1-man)
 
-> [Me](https://github.com/rodricbr)               :: The rest
+> [Me](https://github.com/rodricbr)               :: Making it look cool & easy! :)
 
 
