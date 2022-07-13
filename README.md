@@ -303,6 +303,10 @@ cat output.txt | awk -v value="[teste]>>> " '{print value$5}' | tr -d value=\" |
 - Mind maps for 403 Bypass: **https://github.com/KathanP19/HowToHunt/tree/master/Status_Code_Bypass**
 - [Bypassing 403 medium post](https://medium.com/@dufferhackers/403-forbidden-bypass-technique-eda321012baa)
 
+HTTP 403 is an HTTP status code meaning access to the requested resource is forbidden. The server understood the request, but will not fulfill it, due to lack of privilege on the application.
+
+<img src="./assets/forbidden.png" alt="403 Forbidden">
+
 <br>
 
 ## 403 Bypass method using cURL: <br>
