@@ -9,7 +9,7 @@
 
 > [SQLi Related + Payload list](#--sqli)
 
-> [cURL Related](#curl-related)
+> [cURL Related](#--curl-related)
 
 > [Tools Related](#--tools)
 
@@ -257,7 +257,7 @@ Consists of an insertion or "injection" of a SQL query via the input data from t
 
 <br>
 
-# cURL Related
+# - cURL Related
 ● What is [cURL](https://linux.die.net/man/1/curl) is a tool to transfer data from or to a server.? <br>
 
 cURL is a command-line interface(CLI) tool for transferring data specified with URL syntax.
@@ -279,7 +279,7 @@ CODE_=$(curl -w "%{http_code}\n" -s -o /dev/null "$1")
 The first thing to note about this whole process is that essentially serialization is just a fancy word for converting objects in a program's memory into another format that is easier to share or send over the network. These "serialized" formats are usually quite easy for humans to read, especially when compared to the raw binary format they are stored as in memory. XML and JSON are common examples of these easy to read serialization formats.
 Deserialization is, as the name suggests, the opposite process. Converting back from XML/JSON/etc into a .NET object in memory that the program can work with.
 
-<img src="./assets/deserialization-diagram.jpg">
+<img src="./assets/deserialization-diagram.jpg" alt="Deserialization Diagram">
 
 ### Greping for **__VIEWSTATE** variable in a determined domain: <br>
 
