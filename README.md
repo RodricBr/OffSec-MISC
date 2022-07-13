@@ -332,7 +332,7 @@ curl -i -s -k -X GET https://www.site.com/ -H "Host: www.site.co" -H "X-rewrite-
 
 <br>
 
-# Tools
+# - Tools
 
 ## Nmap Ultimate Scan v1 ([man](https://man7.org/linux/man-pages/man1/nmap.1.html))
 
