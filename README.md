@@ -395,9 +395,9 @@ sudo wfuzz --hc 404,400,302,301 -u https://site.com/FUZZ -w WORDLIST.txt -H "Use
 
 <br>
 
-# APIs
+# - APIs
 - APIs for a variety of target reconnaissance!
-- Tip: Can be used with cURL to make automated tools using shell script.
+- Tip: Can be used with cURL to make automated tools using shell/bash script.
 - Replace **URL.COM** with your target's domain.
 
 The purpose of an API(Application Programming Interface) is to facilitate communication between software. They provide a format for applications and devices to talk to one another and exchange data in response to commands. This Request/Response pair is a fundamental component in an API
