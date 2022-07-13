@@ -11,9 +11,11 @@
 
 > [cURL Related](#--curl-related)
 
+> [403 Bypassing](#--bypass-403-forbidden)
+
 > [Tools Related](#--tools)
 
-> [APIs](#apis)
+> [APIs](#--apis)
 
 <br>
 <hr>
@@ -299,7 +301,7 @@ cat output.txt | awk -v value="[teste]>>> " '{print value$5}' | tr -d value=\" |
 
 <br>
 
-# Bypass 403 Forbidden 
+# - Bypass 403 Forbidden 
 - Mind maps for 403 Bypass: **https://github.com/KathanP19/HowToHunt/tree/master/Status_Code_Bypass**
 - [Bypassing 403 medium post](https://medium.com/@dufferhackers/403-forbidden-bypass-technique-eda321012baa)
 
