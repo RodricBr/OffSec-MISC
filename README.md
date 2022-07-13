@@ -400,6 +400,10 @@ sudo wfuzz --hc 404,400,302,301 -u https://site.com/FUZZ -w WORDLIST.txt -H "Use
 - Tip: Can be used with cURL to make automated tools using shell script.
 - Replace **URL.COM** with your target's domain.
 
+The purpose of an API(Application Programming Interface) is to facilitate communication between software. They provide a format for applications and devices to talk to one another and exchange data in response to commands. This Request/Response pair is a fundamental component in an API
+
+<img src="./assets/api-example.jpg" alt="API Visual Example">
+
 <br>
 
 ## DNS Look up & DNS Stuff <br>
