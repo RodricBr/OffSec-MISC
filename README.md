@@ -284,7 +284,7 @@ Deserialization is, as the name suggests, the opposite process. Converting back 
 ### Greping for **__VIEWSTATE** variable in a determined domain: <br>
 
 ```bash
-curl -v -s -k https://www.nepalipaisa.com/News.aspx | grep VIEW >> output.txt
+curl -v -s -k https://www.website.com/Login.aspx | grep VIEW >> output.txt
 ```
 
 ### Grabbing only the objects on the output file & throwing the objects into stdout: <br>
