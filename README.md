@@ -36,7 +36,7 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
 ## XSS Payloads (My personal collection) <br>
 
 <details>
-  <summary>🔴 Click to view a custom list of XSS Payloads</summary>
+  <summary>🔴 Click to view my personal custom list of XSS Payloads</summary>
 
   ```
   <script>alert(document.domain+"\n\n"+document.cookie);<script>
