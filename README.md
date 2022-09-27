@@ -453,7 +453,7 @@ The purpose of an API(Application Programming Interface) is to facilitate commun
 
 <br>
 
-## Sub-domains Gathering <br>
+## Sub-domain Gathering <br>
 
 > https://api.hackertarget.com/hostsearch/?q=URL.COM <br>
 > https://sonar.omnisint.io/subdomains/URL.COM <br>
