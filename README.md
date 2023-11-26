@@ -486,6 +486,7 @@ The purpose of an API(Application Programming Interface) is to facilitate commun
 > https://api.hackertarget.com/findshareddns/?q=URL.COM <br>
 > https://api.hackertarget.com/reversedns/?q=URL.COM <br>
 > https://api.hackertarget.com/zonetransfer/?q=URL.COM
+> https://dns.google.com/resolve?name=URL.com&type=(TXT,MX,AAAA,A,CNAME,NS,SOA,PTR,SPF,SRV... etc)
 
 <br>
 
